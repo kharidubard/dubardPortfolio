@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 export default {
   content: [
     "./index.html",
@@ -6,8 +9,9 @@ export default {
   ],
   theme: {
     fontSize: {
-      md : "1.6rem",
-      lg : ["4.8rem", 1],
+      sm : ".6rem",
+      md: "1.4rem",
+      lg : ["3.8rem", 1],
     },
 
 
@@ -18,7 +22,7 @@ export default {
         'yo': {'min': '0', 'max': '767px'},
         'yo': {'min': '0', 'max': '767px'},
         
-
+        ...defaultTheme.screens,
         
       },
 
@@ -30,7 +34,7 @@ export default {
 
 
       colors: {
-        primaryLight:'#EFE9F4',
+        primaryOrange:'#EB5E28',
         primaryDarkBlue: '#1D1153',
         primaryLightBlue:'#5DA9E9',
         secondaryPink:'#E75A7C',

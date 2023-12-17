@@ -1,41 +1,40 @@
 function Hero() {
-    return (
-        <>
-          <section className="relative flex flex-col flex-none flex-nowrap overflow-visible content-center items-center justify-center h-min w-full ">
-            {/* hero inner */}
-            <div className="relative flex flex-col flex-none flex-nowrap content-center overflow-visible items-center justify-center py-0 px-8 h-min max-w-[50rem] w-full">
-              {/* heading & cta */}
-              <div className="z-2 relative flex flex-col flex-none flex-nowrap content-center overflow-visible items-center justify-center h-min max-w-[44.8rem] w-full">
-                <div className="relative flex flex-col flex-none flex-nowrap items-center justify-center gap-4 overflow-hidden h-min w-full">
-                  <div className="relative flex flex-col flex-none shrink-0	break-words whitespace-pre-wrap justify-start h-auto w-full">
-                    <h1 className="z-10 text-[white] text-center text-lg font-bold">
-                      Hi, I'm <br />
-                      <span className="text-[#ffffff]">Khari DuBard</span>
-                    </h1>
-                  </div>
-                  <div className="relative flex flex-col flex-none shrink-0	break-words whitespace-pre-wrap justify-start h-auto w-full">
-                    <p className="text-white  text-md text-center font-medium">
-                    UI/UX Designer and Front-End Web Developer with a strong commitment to inclusivity, innovation, and cutting-edge design.{" "}
-                    </p>
-                  </div>
-                </div>
-    
-                {/* <div className="flex items-center justify-center gap-10 h-min-content overflow-hidden relative w-min-content"> */}
-                <a href="https://knightconnect.campuslabs.com/engage/organization/designandcode">
-                  <button className="transition duration-200 hover:scale-105 text-md bg-white font-bold rounded-xl py-4 px-4 mt-8">
-                    Contact
-                  </button>
-                </a>
-                <a href="https://knightconnect.campuslabs.com/engage/organization/designandcode">
-                  <button className="transition duration-200 hover:scale-105 text-md bg-white font-bold rounded-xl py-4 px-4 mt-8">
-                    My Resume
-                  </button>
-                </a>
-                {/* </div> */}
-              </div>
-            </div>
-          </section>
-        </>
-      );
-    }
-    export default Hero
+  return (
+    <>
+      <div className="px-[50px] flex">
+        {/* Left Column */}
+        <div className="flex-1 p-4">
+          {/* Content for the left column */}
+          <h2 className="text-lg mb-2">Hello! I'm</h2>
+          <h2 className="text-[4.2rem] font-semibold">Khari</h2>
+          <h2 className="text-[4.2rem] font-semibold pl-[58px] mb-2">DuBard</h2>
+          <p className="text-[1.2rem] pl-[58px]">
+            Web Developer | UI/UX Designer
+          </p>
+          <a href="https://knightconnect.campuslabs.com/engage/organization/designandcode">
+            <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4 mt-8 mr-2">
+              Contact Me
+            </button>
+          </a>
+          <a href="https://knightconnect.campuslabs.com/engage/organization/designandcode">
+            <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4 mt-8">
+              My Resume
+            </button>
+          </a>
+        </div>
+
+        {/* Right Column */}
+        <div className="flex-1 justify-center items-center">
+          {/* Content for the right column */}
+          <img
+            src="src\assets\Khari2_1600x1600.jpg"
+            className="h-[384px w-[384px] rounded-full shadow-[0px_10px_4px_rgba(0,0,0,0.5)] "
+          />
+          <h2 className="text-lg font-semibold mb-2"></h2>
+          <p></p>
+        </div>
+      </div>
+    </>
+  );
+}
+export default Hero;
