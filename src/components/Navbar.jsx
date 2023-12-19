@@ -28,7 +28,7 @@ function Navbar() {
 					<div className="z-50 flex md:hidden">
 						<button
 							onClick={toggleStyles}
-							className="flex ml-auto items-center px-3 py-2 border rounded text-white border-black hover:text-white hover:border-white">
+							className="flex ml-auto items-center px-3 py-2 border rounded text-black border-black hover:text-primaryOrange hover:border-primaryOrange">
 							{isActive ? (
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -60,21 +60,24 @@ function Navbar() {
 								? "yo:opacity-1 yo:translate-x-0"
 								: "yo:opacity-0 yo:translate-x-[100vw]"
 						} yo:translate-x-0 fixed inset-0 z-40 h-full overflow-auto md:relative md:h-auto md:overflow-visible`}>
-						<ul className="bg-black md:bg-transparent flex font-bold flex-col justify-center items-center h-full w-full  gap-5 md:flex-row md:justify-start  lg:flex-row">
+						<ul className="bg-[#f2f2f2] md:bg-transparent flex font-bold flex-col justify-center items-center h-full w-full  gap-5 md:flex-row md:justify-start  lg:flex-row">
 							<NavLink
 								to="/about"
-								className="block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4">
+								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
 								About
+								<span className="underline-animation"></span>
 							</NavLink>
 							<NavLink
 								to="/projects"
-								className="block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4">
+								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
 								Projects
+								<span className="underline-animation"></span>
 							</NavLink>
 							<NavLink
 								to="/contact"
-								className="block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4">
+								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
 								Contact
+								<span className="underline-animation"></span>
 							</NavLink>
 							
 						</ul>
