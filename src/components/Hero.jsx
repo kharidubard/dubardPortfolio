@@ -1,3 +1,5 @@
+import { Star } from "./HeroMotionEffect";
+
 function Hero() {
   return (
     <>
@@ -23,11 +25,20 @@ function Hero() {
           </a>
         </div>
 
+        <Star
+            hex="#FACC15"
+            width={52}
+            position="-left-[.4rem] -top-[1.6rem]"
+            delay={5}
+            rotate={[10, -10]}
+          />
+
+          
         {/* Right Column */}
         <div className="flex-1 justify-center items-center">
           {/* Content for the right column */}
           <img
-            src="src\assets\Khari2_1600x1600.jpg"
+            src="src\assets\headshot1square.jpg"
             className="h-[384px w-[384px] rounded-full shadow-[0px_10px_4px_rgba(0,0,0,0.5)] "
           />
           <h2 className="text-lg font-semibold mb-2"></h2>
