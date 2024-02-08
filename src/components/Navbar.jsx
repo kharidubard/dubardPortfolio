@@ -1,4 +1,4 @@
-import kdLogo from "../assets/D&CLogoTriangleTransparent.png";
+import kdLogo from "../assets/react.svg";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 

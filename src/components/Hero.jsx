@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 
 function Hero() {
@@ -26,12 +26,12 @@ function Hero() {
             <p className="text-[1.2rem] pl-[58px]">
               Web Developer | UI/UX Designer
             </p>
-            <a href="https://knightconnect.campuslabs.com/engage/organization/designandcode">
+            <a target="blank" href="https://www.linkedin.com/in/khari-dubard-b90ba2248/">
               <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4 mt-8 mr-2">
                 Contact Me
               </button>
             </a>
-            <a href="https://knightconnect.campuslabs.com/engage/organization/designandcode">
+            <a target="blank" href="https://docs.google.com/document/d/1gw3sIqi1cULHrWO2MN5zlwJk7p5wIPfTjvfdcrL9Lr4/edit?usp=sharing">
               <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4 mt-8">
                 My Resume
               </button>

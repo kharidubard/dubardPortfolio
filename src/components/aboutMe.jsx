@@ -1,7 +1,7 @@
 function About() {
   return (
     <div className="App">
-      <div className="w-[650px] md:w-[1200px] md:h-[400px] xs:w-[350px] m-auto gap-y-[10px] gap-x-[10px] xs:grid xs:grid-cols-1">
+      <div className="w-[650px] md:w-[1200px] md:h-[400px] xs:w-[350px] m-auto gap-y-[10px] gap-x-[10px] xs:grid xs:grid-cols-1 over">
         {/* Instagram social box*/}
         <div className="bg-[#252422] text-white rounded-md text-[16px] flex flex-col">
           <div className="px-[50px] flex">
@@ -15,7 +15,7 @@ function About() {
             </div>
 
             {/* Right Column */}
-            <div className="flex-1 justify-center items-center">
+            <div className="flex-1 justify-center items-center lg:text-md sm:text-sm">
               <p className="text-left mt-[50px] mb-[14px] font-bold text-primaryOrange">
                 A bit about me.
               </p>
