@@ -1,4 +1,4 @@
-import kdLogo from "../assets/react.svg";
+import kdLogo from "../assets/KhariDuBard-logos_black.png";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -21,7 +21,7 @@ function Navbar() {
 							<img
 								src={kdLogo}
 								alt="Logo"
-								className="w-auto h-5 lg:w-auto mr-4"
+								className="w-auto h-10 lg:w-auto lg:h-30 mr-4"
 							/>
 						</NavLink>
 					</div>

@@ -1,32 +1,42 @@
 function About() {
   return (
     <div className="App">
-      <div className="w-[650px] md:w-[1200px] md:h-[400px] xs:w-[350px] m-auto gap-y-[10px] gap-x-[10px] xs:grid xs:grid-cols-1 over">
+      <div className="w-full md:max-w-[1200px] mx-auto gap-y-10 gap-x-10">
         {/* Instagram social box*/}
-        <div className="bg-[#252422] text-white rounded-md text-[16px] flex flex-col">
-          <div className="px-[50px] flex">
-            {/* Left Column */}
-            <div className="flex-1 p-4">
-              {/* Content for the left column */}
-              <img
-                src="src\assets\headshot1.jpg"
-                className="h-[256px w-[256px] ml-[100px] mt-[50px] rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
-              />
-            </div>
+        <div className="bg-[#252422] text-white rounded-md text-16 flex flex-col md:flex-row md:shadow-[0px_10px_4px_rgba(0,0,0,0.5)]">
+          {/* Left Column (Image) */}
+          <div className="p-4 md:w-1/2">
+            {/* Content for the left column */}
+            <img
+              src="src\assets\KhariInVegasResized.jpg"
+              className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
+              alt="Profile"
+            />
+          </div>
 
-            {/* Right Column */}
-            <div className="flex-1 justify-center items-center lg:text-md sm:text-sm">
-              <p className="text-left mt-[50px] mb-[14px] font-bold text-primaryOrange">
-                A bit about me.
-              </p>
-              <p>
-                Highly motivated UI/UX Designer and Front-End Web Developer with
-                a strong commitment to inclusivity, innovation, and cutting-edge
-                design. Demonstrated success in transforming digital experiences
-                and driving engagement through empathetic, user-centered design.
-                Adept at collaborating with multidisciplinary teams,
-                implementing accessibility standards, and delivering fully
-                responsive web applications.
+          {/* Right Column (Text) */}
+          <div className="p-4 md:w-1/2">
+            <p className="text-left text-24 md:text-28 mb-4 font-bold text-primaryOrange">
+              A bit about me...
+            </p>
+            <p className="text-20 md:text-24">
+              Highly motivated UI/UX Designer and Front-End Web Developer with a
+              strong commitment to inclusivity, innovation, and cutting-edge
+              design. Demonstrated success in transforming digital experiences
+              and driving engagement through empathetic, user-centered design.
+              Adept at collaborating with multidisciplinary teams, implementing
+              accessibility standards, and delivering fully responsive web
+              applications.
+            </p>
+
+            <div className="mt-4">
+              <p className="text-20 md:text-24 font-semibold text-primaryOrange">Bio:</p>
+              <p className="text-16 md:text-20">
+                Hometown: Orlando, FL
+                <br />
+                Favorite Meal: Salmon with a side Mashed Potatoes and Broccoli
+                <br />
+                Free Time Activities: Playing Sports, Vi
               </p>
             </div>
           </div>

@@ -15,16 +15,17 @@ export default {
     },
 
 
-    screens:{
-        'xs':'320px',
-        'bub': {'min': '810px', 'max': '1199px'},
-        's': {'min': '0', 'max': '600px'},
-        'yo': {'min': '0', 'max': '767px'},
-        'yo': {'min': '0', 'max': '767px'},
-        
-        ...defaultTheme.screens,
-        
-      },
+    screens: {
+      'xs': '320px',
+      's': '600px',
+      'm': '768px',
+      'l': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      'yo': {'min': '0', 'max': '767px'},
+      'yo': {'min': '0', 'max': '767px'},
+      ...defaultTheme.screens,
+    },
 
     
     extend: {
