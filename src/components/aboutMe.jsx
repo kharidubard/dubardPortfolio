@@ -1,10 +1,24 @@
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faUtensils, faRunning } from '@fortawesome/free-solid-svg-icons';
+import { useSpring, animated } from "react-spring";
+
+
 function About() {
+
+  const fadeIn = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: { duration: 1000 },
+  });
+
   return (
-    <div className="App">
+    <>
+      <animated.div style={fadeIn}>
       <div className="w-full md:max-w-[1200px] mx-auto gap-y-10 gap-x-10">
-        {/* Instagram social box*/}
+        
         <div className="bg-[#252422] text-white rounded-md text-16 flex flex-col md:flex-row md:shadow-[0px_10px_4px_rgba(0,0,0,0.5)]">
-          {/* Left Column (Image) */}
+          {/* Left Column */}
           <div className="p-4 md:w-1/2">
             {/* Content for the left column */}
             <img
@@ -14,7 +28,7 @@ function About() {
             />
           </div>
 
-          {/* Right Column (Text) */}
+          {/* Right Column Text */}
           <div className="p-4 md:w-1/2">
             <p className="text-left text-24 md:text-28 mb-4 font-bold text-primaryOrange">
               A bit about me...
@@ -32,17 +46,18 @@ function About() {
             <div className="mt-4">
               <p className="text-20 md:text-24 font-semibold text-primaryOrange">Bio:</p>
               <p className="text-16 md:text-20">
-                Hometown: Orlando, FL
+                <b><FontAwesomeIcon icon={faHome} /> Hometown:</b> Orlando, FL
                 <br />
-                Favorite Meal: Salmon with a side Mashed Potatoes and Broccoli
+                <b><FontAwesomeIcon icon={faUtensils} /> Favorite Meal:</b> Salmon with a side of Mashed Potatoes and Broccoli.
                 <br />
-                Free Time Activities: Playing Sports, Vi
+                <b><FontAwesomeIcon icon={faRunning} /> Free Time Activities:</b> Playing sports, video games and learning geography.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      </animated.div>
+      </>
   );
 }
 

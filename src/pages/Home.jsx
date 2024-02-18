@@ -1,3 +1,5 @@
+import ContactMe from "../components/Contact.jsx";
+import Footer from "../components/Footer.jsx";
 import Hero from "../components/Hero.jsx";
 import Navbar from "../components/Navbar.jsx";
 import About from "../components/aboutMe.jsx";
@@ -12,8 +14,11 @@ function App() {
         </div>
       </main>
       <About />
-      <div className="mb-[20rem]"></div>
+      <div className="mb-[8rem]"></div>
       <ProjectSection />
+      <ContactMe />
+      <div className="mb-[8rem]"></div>
+      <Footer />
     </div>
   );
 }
