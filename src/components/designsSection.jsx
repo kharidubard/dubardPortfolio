@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-router-dom";
 
 const projects = [
   {
@@ -71,13 +71,13 @@ function DesignSection() {
         </div>
       </div>
       <div className="flex justify-center mt-8">
-        <Link
-          to="/projects"
-          className="text-primaryOrange font-semibold text-md hover:text-primaryOrangeDark hover:border-b-2 hover:border-primaryOrange"
-        >
-          View All Designs{" "}
-          <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
-        </Link>
+      <NavLink
+								to="/contact"
+								className="nav-link block lg:mt-0 text-primaryOrange text-[1.5rem] hover:text-primaryOrange mr-4 relative">
+								View All Designs
+                                <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
+								<span className="underline-animation"></span>
+							</NavLink>
       </div>
     </>
   );
