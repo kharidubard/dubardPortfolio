@@ -5,39 +5,39 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const projects = [
   {
     id: 1,
-    title: "National Park System App Pacific Northwest Division",
+    title: "Example",
     date: "February 2024",
     description:
       "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
-    image: "src/assets/projectFiles/npsProjectCover.png",
-    link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
+    image: "",
+    link: "",
   },
   {
     id: 2,
-    title: "Design & Code Website",
+    title: "Example",
     date: "January 2024",
     description:
       "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
-    image: "src/assets/projectFiles/DCLogoBlack.png",
-    link: "https://designandcodeucf.com/",
+    image: "",
+    link: "",
   },
   {
     id: 3,
-    title: "Alive IV Lounge",
+    title: "Example",
     date: "May 2023",
     description:
       "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
-    image: "src/assets/projectFiles/AliveLogo.jpg",
-    link: "https://kharidubard.github.io/ALIVE-IV-LOUNGE/",
+    image: "",
+    link: "",
   },
 ];
 
-function ProjectSection() {
+function DesignSection() {
   return (
     <>
       {/* Title */}
       <div className="text-center">
-        <h1 className="text-[44px] font-semibold mb-20">My Projects</h1>
+        <h1 className="text-[44px] font-semibold mb-20">My Designs</h1>
       </div>
 
       {/* Project Cards */}
@@ -75,7 +75,7 @@ function ProjectSection() {
           to="/projects"
           className="text-primaryOrange font-semibold text-md hover:text-primaryOrangeDark hover:border-b-2 hover:border-primaryOrange"
         >
-          View All Projects{" "}
+          View All Designs{" "}
           <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
         </Link>
       </div>
@@ -83,4 +83,4 @@ function ProjectSection() {
   );
 }
 
-export default ProjectSection;
+export default DesignSection;

@@ -1,7 +1,4 @@
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Footer from "../components/Footer";
 const projects = [
   {
     id: 1,
@@ -30,9 +27,36 @@ const projects = [
     image: "src/assets/projectFiles/AliveLogo.jpg",
     link: "https://kharidubard.github.io/ALIVE-IV-LOUNGE/",
   },
+  {
+    id: 4,
+    title: "Example",
+    date: "Date",
+    description:
+      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
+    image: "src/assets/projectFiles/npsProjectCover.png",
+    link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
+  },
+  {
+    id: 5,
+    title: "Example",
+    date: "Date",
+    description:
+      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
+    image: "src/assets/projectFiles/npsProjectCover.png",
+    link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
+  },
+  {
+    id: 6,
+    title: "Example",
+    date: "Date",
+    description:
+      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
+    image: "src/assets/projectFiles/npsProjectCover.png",
+    link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
+  },
 ];
 
-function ProjectSection() {
+function Projects() {
   return (
     <>
       {/* Title */}
@@ -70,17 +94,11 @@ function ProjectSection() {
           ))}
         </div>
       </div>
-      <div className="flex justify-center mt-8">
-        <Link
-          to="/projects"
-          className="text-primaryOrange font-semibold text-md hover:text-primaryOrangeDark hover:border-b-2 hover:border-primaryOrange"
-        >
-          View All Projects{" "}
-          <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
-        </Link>
+      <div className="mt-10">
+        <Footer />
       </div>
     </>
   );
 }
 
-export default ProjectSection;
+export default Projects;

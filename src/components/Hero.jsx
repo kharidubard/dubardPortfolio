@@ -17,7 +17,7 @@ function Hero() {
       {/* Left Column */}
       <div className="flex-1 p-4 md:p-8">
         {/* Content for the left column */}
-        <h2 className="text-lg mb-5">Hello! I'm</h2>
+        <h2 className="text-lg mb-5">Hello! I&apos;m</h2>
         <h2 className="text-lg font-semibold">Khari</h2>
         <h2 className="text-lg font-semibold mb-2 md:pl-14">DuBard</h2>
         <p className="text-md md:text-base md:pl-14">Web Developer | UI/UX Designer</p>
@@ -27,7 +27,7 @@ function Hero() {
               Contact Me
             </button>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1gw3sIqi1cULHrWO2MN5zlwJk7p5wIPfTjvfdcrL9Lr4/edit?usp=sharing">
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1ZeJz13SMJnYZyWHPRH7ANosq5xtI2f2M/view?usp=sharing">
             <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4">
               My Resume
             </button>

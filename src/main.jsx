@@ -1,8 +1,8 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home.jsx'
 import Base from './pages/Base.jsx'
+import Projects from './pages/ProjectsPage.jsx';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -10,6 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path="/" element={<Base />}>
         <Route index element={<Home />} />
+        <Route path="/projects" element={<Projects />}/>
       </Route>
     </Routes>
   </BrowserRouter>,

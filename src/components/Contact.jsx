@@ -1,10 +1,6 @@
-import React from "react";
-
-
-
 function ContactMe() {
   return (
-    <div className="bg-gray-100 py-8 md:py-12">
+    <div className="App py-8 md:py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-lg mx-auto">
           <h2 className="text-[34px] md:text-3xl font-bold text-center text-gray-800 mb-4 md:mb-6">
