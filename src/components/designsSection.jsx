@@ -5,19 +5,19 @@ import { NavLink } from "react-router-dom";
 const projects = [
   {
     id: 1,
-    title: "Example",
-    date: "February 2024",
+    title: "Design & Code Branding",
+    date: "Fall 2023 - Spring 2024",
     description:
-      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
+      "My designs and promotial material for Design & Code.",
     image: "",
     link: "",
   },
   {
     id: 2,
-    title: "Example",
-    date: "January 2024",
+    title: "Task Page",
+    date: "August 2023",
     description:
-      "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
+      "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
     image: "",
     link: "",
   },
@@ -26,7 +26,7 @@ const projects = [
     title: "Example",
     date: "May 2023",
     description:
-      "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
+      "",
     image: "",
     link: "",
   },
@@ -72,7 +72,7 @@ function DesignSection() {
       </div>
       <div className="flex justify-center mt-8">
       <NavLink
-								to="/contact"
+								to="/designs"
 								className="nav-link block lg:mt-0 text-primaryOrange text-[1.5rem] hover:text-primaryOrange mr-4 relative">
 								View All Designs
                                 <FontAwesomeIcon icon={faArrowRight} className="ml-2" />

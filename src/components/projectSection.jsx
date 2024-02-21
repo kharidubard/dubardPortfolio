@@ -72,9 +72,9 @@ function ProjectSection() {
       </div>
       <div className="flex justify-center mt-8">
       <NavLink
-								to="/contact"
+								to="/projects"
 								className="nav-link block lg:mt-0 text-primaryOrange text-[1.5rem] hover:text-primaryOrange mr-4 relative">
-								View All Designs
+								View All Projects
                                 <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
 								<span className="underline-animation"></span>
 							</NavLink>
