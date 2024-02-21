@@ -1,4 +1,4 @@
-//import kdLogo from "../assets/KhariDuBard-logos_black.png";
+import kdLogo from "../assets/KD.svg";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -11,18 +11,19 @@ function Navbar() {
 	return (
 		<>
 			<header
-				className="p-[2rem] flex max-w-full w-full items-center justify-center sticky top-[0] z-50  border-[#141414] mb-[4rem] border-b border-opacity-25"
-				style={{ backgroundColor: "#F2F2F2" }}>
+				className="p-[2rem] flex max-w-full w-full items-center justify-center sticky top-[0] z-50  mb-[4rem] shadow-md"
+
+				style={{ backgroundColor: "#CCC5B9" }}>
 				<div className="max-w-[120.6rem] w-full flex justify-between">
 					<div className="flex-row lg:flex lg:items-center lg:w-auto space-between">
 						<NavLink
 							to="/"
 							className="block lg:mt-0 text-white text-[1.6rem] hover:text-primaryLightBlue mr-4">
-							{/* <img 
+							 <img 
 								src={kdLogo}
 								alt="Logo"
-								className="w-auto h-10 lg:w-auto lg:h-30 mr-4"
-							/>*/}
+								className=" mr-4"
+							/>
 						</NavLink>
 					</div>
 					<div className="z-50 flex md:hidden">
@@ -61,6 +62,12 @@ function Navbar() {
 								: "yo:opacity-0 yo:translate-x-[100vw]"
 						} yo:translate-x-0 fixed inset-0 z-40 h-full overflow-auto md:relative md:h-auto md:overflow-visible`}>
 						<ul className="bg-[#f2f2f2] md:bg-transparent flex font-bold flex-col justify-center items-center h-full w-full  gap-5 md:flex-row md:justify-start  lg:flex-row">
+						<NavLink
+								to="/"
+								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
+								Home
+								<span className="underline-animation"></span>
+							</NavLink>
 							<NavLink
 								to="/about"
 								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
