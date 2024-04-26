@@ -11,7 +11,7 @@ function Navbar() {
 	return (
 		<>
 			<header
-				className="p-[2rem] flex max-w-full w-full items-center justify-center sticky top-[0] z-50  mb-[4rem] shadow-md"
+				className="md:p-[2rem] xs:p-[0.5rem] flex max-w-full w-full items-center justify-center sticky top-[0] z-50 shadow-md"
 
 				style={{ backgroundColor: "#CCC5B9" }}>
 				<div className="max-w-[120.6rem] w-full flex justify-between">

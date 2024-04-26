@@ -16,7 +16,7 @@ function About() {
       <animated.div style={fadeIn}>
       <div className="w-full md:max-w-[1200px] mx-auto gap-y-10 gap-x-10">
         
-        <div className="bg-[#252422] text-white rounded-md text-16 flex flex-col md:flex-row md:shadow-[0px_5px_4px_rgba(0,0,0,0.2)]">
+        <div className="bg-primaryLightBiege text-black rounded-md text-16 flex flex-col md:flex-row md:shadow-[0px_5px_4px_rgba(0,0,0,0.2)]">
           {/* Left Column */}
           <div className="p-4 md:w-1/2">
             {/* Content for the left column */}

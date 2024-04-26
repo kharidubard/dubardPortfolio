@@ -15,7 +15,7 @@ function Hero() {
     <>
     <animated.div style={fadeIn} className="px-4 md:px-8 lg:px-16 flex flex-col md:flex-row bg-gradient-to-r ">
       {/* Left Column */}
-      <div className="flex-1 p-4 md:p-8">
+      <div className="flex-1 p-4 md:p-8 text-white">
         {/* Content for the left column */}
         <h2 className="text-lg mb-5">Hello! I&apos;m</h2>
         <h2 className="text-lg font-semibold">Khari</h2>

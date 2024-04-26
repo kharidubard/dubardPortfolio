@@ -37,7 +37,7 @@ function DesignSection() {
     <>
       {/* Title */}
       <div className="text-center">
-        <h1 className="text-[44px] font-semibold mb-20">My Designs</h1>
+        <h1 className="text-[44px] text-white font-semibold mb-20">My Designs</h1>
       </div>
 
       {/* Project Cards */}
