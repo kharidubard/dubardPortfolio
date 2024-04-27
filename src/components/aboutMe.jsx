@@ -29,10 +29,10 @@ function About() {
 
           {/* Right Column Text */}
           <div className="p-4 md:w-1/2">
-            <p className="text-left text-24 md:text-28 mb-4 font-bold text-primaryOrange">
+            <p className="text-left md:text-[24px] mb-4 font-bold text-primaryOrange">
               A bit about me...
             </p>
-            <p className="text-20 md:text-24">
+            <p className="xs:text-[16px]  md:text-[18px]">
               Highly motivated UI/UX Designer and Front-End Web Developer with a
               strong commitment to inclusivity, innovation, and cutting-edge
               design. Demonstrated success in transforming digital experiences
@@ -43,12 +43,15 @@ function About() {
             </p>
 
             <div className="mt-4">
-              <p className="text-20 md:text-24 font-semibold text-primaryOrange">Bio:</p>
-              <p className="text-16 md:text-20">
+              <p className="text-20 xs:text-[20px] md:text-[24px] font-semibold text-primaryOrange">Bio:</p>
+              <div className='p-1'></div>
+              <p className="xs:text-[16px] md:text-[18px]">
                 <b><FontAwesomeIcon icon={faHome} /> Hometown:</b> Orlando, FL
                 <br />
+                <div className='p-1'></div>
                 <b><FontAwesomeIcon icon={faUtensils} /> Favorite Meal:</b> Salmon with a side of Mashed Potatoes and Broccoli.
                 <br />
+                <div className='p-1'></div>
                 <b><FontAwesomeIcon icon={faRunning} /> Free Time Activities:</b> Playing sports, video games and learning geography.
               </p>
             </div>
