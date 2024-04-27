@@ -37,14 +37,13 @@ function Hero() {
 
       {/* Right Column */}
       <div className="flex-1 flex justify-center items-center">
-        {/* Content for the right column */}
-        <img
-  src="src\assets\headshot1square.jpg"
-  className="h-64 w-64 md:h-[384px] md:w-[384px] rounded-full shadow-lg object-cover"
-  alt="Profile"
-/>
-
-      </div>
+  {/* Content for the right column */}
+  <img
+    src="src\assets\headshot1square.jpg"
+    className="hidden md:block h-64 w-64 md:h-[384px] md:w-[384px] rounded-full shadow-lg object-cover"
+    alt="Profile"
+  />
+</div>
     </animated.div>
   </>
 );
