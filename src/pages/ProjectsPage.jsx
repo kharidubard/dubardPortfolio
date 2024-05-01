@@ -7,7 +7,7 @@ const projects = [
     description:
       "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
     image: "src/assets/projectFiles/npsProjectCover.png",
-    link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
+    link: "/pages/projects/NPS_PNW",
   },
   {
     id: 2,
@@ -36,24 +36,6 @@ const projects = [
     image: "src/assets/projectFiles/npsProjectCover.png",
     link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
   },
-  {
-    id: 5,
-    title: "Example",
-    date: "Date",
-    description:
-      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
-    image: "src/assets/projectFiles/npsProjectCover.png",
-    link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
-  },
-  {
-    id: 6,
-    title: "Example",
-    date: "Date",
-    description:
-      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
-    image: "src/assets/projectFiles/npsProjectCover.png",
-    link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
-  },
 ];
 
 function Projects() {
@@ -61,7 +43,7 @@ function Projects() {
     <>
       {/* Title */}
       <div className="text-center">
-        <h1 className="text-[44px] font-semibold mb-20">My Projects</h1>
+        <h1 className="text-[44px] font-semibold mt-10 mb-20 text-white">My Projects</h1>
       </div>
 
       {/* Project Cards */}

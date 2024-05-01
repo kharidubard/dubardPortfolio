@@ -11,7 +11,7 @@ const projects = [
     description:
       "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
     image: "src/assets/projectFiles/npsProjectCover.png",
-    link: "src/pages/projects/NPS_PNW",
+    link: "/pages/projects/NPS_PNW",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     description:
       "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
     image: "src/assets/projectFiles/DCLogoBlack.png",
-    link: "https://designandcodeucf.com/",
+    link: "/pages/projects/dcSite",
   },
   {
     id: 3,
@@ -47,25 +47,29 @@ function ProjectSection() {
       <div className="flex justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
           {projects.map((project) => (
-            <div key={project.id}>
-              <Link to="/pages/projects/NPS_PNW">
-                <div className="bg-white rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.2)] hover:shadow-2xl">
-                  {/* Add your existing card content here */}
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-4">
-                    <p className="text-[14px] text-gray-600">{project.date}</p>
-                    <h2 className="text-md font-semibold mt-2">
-                      {project.title}
-                    </h2>
-                    <p className="mt-2 text-gray-800">{project.description}</p>
-                  </div>
-                </div>
-              </Link>
+            <a
+            key={project.id}
+            href={project.link}
+            // target="_blank"
+            className="hover:no-underline"
+            rel="noreferrer"
+          >
+            <div className="bg-white rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.2)] hover:shadow-2xl">
+              {/* Add your existing card content here */}
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-4">
+                <p className="text-[14px] text-gray-600">{project.date}</p>
+                <h2 className="text-md font-semibold mt-2">
+                  {project.title}
+                </h2>
+                <p className="mt-2 text-gray-800">{project.description}</p>
+              </div>
             </div>
+          </a>
           ))}
         </div>
       </div>

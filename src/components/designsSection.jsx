@@ -8,8 +8,8 @@ const projects = [
     title: "Design & Code Branding",
     date: "Fall 2023 - Spring 2024",
     description:
-      "My designs and promotial material for Design & Code.",
-    image: "",
+      "My designs and promotial material for the Design & Code club at the University of Central Florida.",
+    image: "src/assets/projectFiles/DCLogoBlack.png",
     link: "",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     description:
       "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
     image: "",
-    link: "",
+    link: "https://www.figma.com/proto/YBBtpdmfBaOtiAmQyLfEeZ/Task-Page-Redesign-3?node-id=1-5&starting-point-node-id=1%3A5&mode=design&t=t31Wo8YVVBJ0wzTH-1",
   },
   {
     id: 3,
