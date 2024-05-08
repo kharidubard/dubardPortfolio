@@ -69,15 +69,15 @@ function Navbar() {
 								<span className="underline-animation"></span>
 							</NavLink>
 							<NavLink
-								to="/about"
-								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
-								About
-								<span className="underline-animation"></span>
-							</NavLink>
-							<NavLink
 								to="/projects"
 								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
 								Projects
+								<span className="underline-animation"></span>
+							</NavLink>
+							<NavLink
+								to="/designs"
+								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
+								Designs
 								<span className="underline-animation"></span>
 							</NavLink>
 							<NavLink

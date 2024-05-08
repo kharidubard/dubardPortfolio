@@ -27,7 +27,7 @@ function Hero() {
               Contact Me
             </button>
           </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1ZeJz13SMJnYZyWHPRH7ANosq5xtI2f2M/view?usp=sharing">
+          <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1gDSLCkTEJa7Rqi6zmitbYBljN6USLw9k/view?usp=sharing">
             <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4">
               My Resume
             </button>

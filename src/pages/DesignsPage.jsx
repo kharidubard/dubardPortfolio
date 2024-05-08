@@ -27,13 +27,22 @@ const projects = [
         image: "",
         link: "",
       },
+      {
+        id: 4,
+        title: "Example",
+        date: "May 2023",
+        description:
+          "",
+        image: "",
+        link: "",
+      },
 ];
 
 function Designs() {
   return (
     <>
       {/* Title */}
-      <div className="bg-primaryDarkBrown mt-10 mb-10">
+      <div className="bg-primaryDarkBrown mt-10 mb-10 px-10">
         <div className="text-center">
           <h1 className="text-[44px] font-semibold mb-20 text-white">My Designs</h1>
         </div>
