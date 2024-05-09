@@ -10,7 +10,7 @@ const projects = [
     description:
       "My designs and promotial material for the Design & Code club at the University of Central Florida.",
     image: "src/assets/projectFiles/DCLogoBlack.png",
-    link: "",
+    link: "pages/designs/DC_Branding",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ function DesignSection() {
               <a
                 key={project.id}
                 href={project.link}
-                target="_blank"
+                // target="_blank"
                 className="hover:no-underline"
                 rel="noreferrer"
               >

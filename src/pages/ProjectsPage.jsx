@@ -15,8 +15,8 @@ const projects = [
     date: "January 2024",
     description:
       "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
-    image: "src/assets/projectFiles/DCLogoBlack.png",
-    link: "https://designandcodeucf.com/",
+    image: "/src/assets/projectFiles/DCHome.png",
+    link: "/pages/projects/dcSite",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const projects = [
     description:
       "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
     image: "src/assets/projectFiles/AliveLogo.jpg",
-    link: "https://kharidubard.github.io/ALIVE-IV-LOUNGE/",
+    link: "pages/projects/AliveIV",
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ function Projects() {
               <a
                 key={project.id}
                 href={project.link}
-                target="_blank"
+                // target="_blank"
                 className="hover:no-underline"
                 rel="noreferrer"
               >

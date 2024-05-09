@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer";
 
-function DCSite() {
+function AliveIV() {
   return (
     <div className="bg-primaryDarkBrown">
       <div className="p-[30px]"></div>
@@ -17,43 +17,53 @@ function DCSite() {
           <div className="p-4 px-8 md:w-1/2 mt-4">
             {/* Content for the left column */}
             <h1 className="text-left text-[36px] mb-4 font-bold text-primaryDarkBrown">
-              Design & Code Website
+              Alive IV Lounge
             </h1>
             <h2 className="font-bold text-[24px]">Overview</h2>
             <p className="xs:text-[14px] md:text-[16px]">
-              A website for the Design and Code club at the University of
-              Central Florida. I am lead designer for the site assisting with
-              UI/UX design and front-end development.
+              A website design for a potential IV Lounge company.The project
+              scope included creating key pages such as the home page, about
+              page, services page, products page, and contact page. The goal was
+              to design a visually appealing and user-friendly website that
+              effectively promotes IV therapy services and related products
+              while maintaining a clean and healthy aesthetic. The website is
+              not fully complete and is merely a design and lacks full
+              functionality.
             </p>
 
             <div className="mt-8">
               <h2 className="font-bold text-[24px]">Goal</h2>
               <p className="text-16 md:text-20">
-              The goal for this site is
-              to offer insight to what the club has to offer and how to become a member.
+                The site was a propsed design for a potential IV Lounge company.
               </p>
             </div>
 
             <div className="mt-8">
               <h2 className="font-bold text-[24px]">My Role in this project</h2>
               <p className="text-16 md:text-20">
-                Lead Designer
+                Designer
                 <br />
-                Front-End Web Developer
+                Web Developer
               </p>
             </div>
 
             <div className="mt-4">
               <h2 className="font-bold text-[24px]">Team Size</h2>
-              <p className="text-16 md:text-20">4 Members</p>
+              <p className="text-16 md:text-20">1 Member</p>
             </div>
           </div>
 
           {/* Right Column Content */}
           <div className="p-4 px-8 md:w-1/2 mt-4">
             <img
-              src="/src\assets\projectFiles\DCHome.png"
+              src="/src\assets\projectFiles\AliveIVHome.png"
               className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
+              alt="Design & Code Website Home Page"
+            />
+
+            <img
+              src="/src\assets\projectFiles\AliveLogo.jpg"
+              className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)] mt-5"
               alt="Design & Code Website Home Page"
             />
 
@@ -61,13 +71,13 @@ function DCSite() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://designandcodeucf.com/"
+                href="https://kharidubard.github.io/ALIVE-IV-LOUNGE/"
               >
                 <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
                   Link to website
                 </button>
               </a>
-              <a
+              {/* <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.figma.com/file/k33Rg2VkeGLI5NGqc3SvTx/Design-%26-Code-Website?type=design&node-id=0%3A1&mode=design&t=ey1d54VHEa0CVxms-1"
@@ -75,7 +85,7 @@ function DCSite() {
                 <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4">
                   Figma Files
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -87,4 +97,4 @@ function DCSite() {
     </div>
   );
 }
-export default DCSite;
+export default AliveIV;

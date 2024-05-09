@@ -19,7 +19,7 @@ const projects = [
     date: "October 2023",
     description:
       "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
-    image: "src/assets/projectFiles/DCLogoBlack.png",
+    image: "/src/assets/projectFiles/DCHome.png",
     link: "/pages/projects/dcSite",
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     description:
       "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
     image: "src/assets/projectFiles/AliveLogo.jpg",
-    link: "https://kharidubard.github.io/ALIVE-IV-LOUNGE/",
+    link: "pages/projects/AliveIV",
   },
 ];
 
