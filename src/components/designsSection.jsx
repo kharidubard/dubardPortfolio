@@ -15,19 +15,19 @@ const projects = [
   {
     id: 2,
     title: "Task Page",
-    date: "August 2023",
+    date: "May 2023",
     description:
       "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
-    image: "",
-    link: "https://www.figma.com/proto/YBBtpdmfBaOtiAmQyLfEeZ/Task-Page-Redesign-3?node-id=1-5&starting-point-node-id=1%3A5&mode=design&t=t31Wo8YVVBJ0wzTH-1",
+    image: "/src/assets/projectFiles/designFiles/TaskPageNew.webp",
+    link: "pages/designs/Task_Page",
   },
   {
     id: 3,
-    title: "Example",
-    date: "May 2023",
-    description: "",
-    image: "",
-    link: "",
+    title: "Design & Code Website Page Designs",
+    date: "Fall 2023",
+    description: "A collection of page designs for the Design & Code website.",
+    image: "/src/assets/projectFiles/designFiles/Khari RedesignMac.png",
+    link: "pages/designs/DC_webdesigns",
   },
 ];
 

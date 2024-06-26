@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 function DCSite() {
   return (
     <div className="bg-primaryDarkBrown">
+       <div className="container mx-auto px-0 sm:px-6 lg:px-8">
       <div className="p-[30px]"></div>
       <div className="w-full md:max-w-[1200px] mx-auto gap-y-10 gap-x-10">
         <div className="flex justify-end">
@@ -80,7 +81,7 @@ function DCSite() {
           </div>
         </div>
       </div>
-
+      </div>
       <div className="mt-10">
         <Footer />
       </div>

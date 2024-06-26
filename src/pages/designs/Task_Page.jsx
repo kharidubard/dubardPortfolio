@@ -1,15 +1,15 @@
 import React from "react";
 import Footer from "../../components/Footer";
 
-function NPS_PNW() {
+function TaskPage() {
   return (
     <div className="bg-primaryDarkBrown min-h-screen">
-      <div className="container mx-auto px-0 sm:px-6 lg:px-8">
+      <div className="container mx-auto sm:px-6 lg:px-8">
         <div className="py-[30px]"></div>
         <div className="w-full md:max-w-[1200px] mx-auto gap-y-10 gap-x-10">
           <div className="flex justify-end">
             <div className="bg-primaryOrange text-white rounded-tl-lg rounded-tr-lg px-2 py-1 text-xs z-10">
-              Mobile App
+              Design
             </div>
           </div>
 
@@ -18,46 +18,27 @@ function NPS_PNW() {
             <div className="p-4 px-8 md:w-1/2 mt-4">
               {/* Content for the left column */}
               <h1 className="text-left text-[36px] mb-4 font-bold text-primaryDarkBrown">
-                National Park Service: Pacific Northwest
+                Task Page Redesign
               </h1>
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
-                The National Park Service: Pacific Northwest app is a
-                comprehensive mobile tool designed to facilitate exploration of
-                the diverse national parks in the region. With a primary
-                emphasis on functionality, usability, and engagement, the app
-                aims to immerse users in their park experiences. Its features
-                include park discovery, live updates, and access to essential
-                information. The project prioritized accessibility of
-                information, ensuring all users, regardless of ability or
-                technical proficiency, can navigate the app easily. Design
-                elements such as high contrast and readable fonts were also
-                incorporated, along with multiple pathways for task completion
-                to accommodate varying levels of expertise.
+                A propsed redesign for the Limbitless Solutions tasking page.
               </p>
 
               <div className="mt-16">
                 <h2 className="font-bold text-[24px]">
                   My Role in this project
                 </h2>
-                <p className="text-16 md:text-20">
-                  UI/UX Designer
-                  <br />
-                  Full Stack Developer
-                </p>
-              </div>
-              <div className="mt-4">
-                <h2 className="font-bold text-[24px]">Team Size</h2>
-                <p className="text-16 md:text-20">5 Members</p>
+                <p className="text-16 md:text-20">UI/UX Designer</p>
               </div>
             </div>
 
             {/* Right Column Content */}
             <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
-                src="/src/assets/projectFiles/npsProjectCover.png"
+                src="/src\assets\projectFiles\designFiles\TaskPageNew.webp"
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
-                alt="NPS PNW Project Cover"
+                alt="Design & Code Logo"
               />
 
               <div className="mt-8 flex flex-col md:flex-row">
@@ -83,32 +64,37 @@ function NPS_PNW() {
             </div>
           </div>
 
+          {/* Grid Row Layout */}
+          {/* Merch */}
+
+          {/* Flyer Designs */}
           <div className="py-8">
             <h1 className="text-[28px] font-medium text-white">Mockups</h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            <div className="w-full h-[750px] rounded-md shadow-md">
+          <div className="grid grid-cols-1 gap-4 mb-8">
+            <div className="w-full h-[800px] rounded-md shadow-md">
               {/* First Image */}
               <img
-                src="/src\assets\projectFiles\npsMockups\NPS-PNW-Mockups-2.webp"
+                src="/src\assets\projectFiles\designFiles\TaskPageHomeSS.webp"
                 className="w-full h-full object-contain rounded-md"
-                alt="NPS App Mockup"
+                alt="How to Ace Your Interview Flyer"
               />
             </div>
-            <div className="w-full h-[750px] rounded-md shadow-md">
-              {/* Second Image */}
+            <div className="w-full h-[800px] rounded-md shadow-md">
+              {/* First Image */}
               <img
-                src="/src\assets\projectFiles\npsMockups\NPS-PNW-Mockups-1.webp"
+                src="/src\assets\projectFiles\designFiles\TaskPageNew.webp"
                 className="w-full h-full object-contain rounded-md"
-                alt="NPS App Mockup"
+                alt="How to Ace Your Interview Flyer"
               />
             </div>
-            <div className="w-full h-[750px] rounded-md shadow-md">
-              {/* Third Image */}
+
+            <div className="w-full h-[800px] rounded-md shadow-md">
+              {/* First Image */}
               <img
-                src="/src\assets\projectFiles\npsMockups\NPS-PNW-Mockups-3.webp"
+                src="/src\assets\projectFiles\designFiles\TaskPagePopUp.webp"
                 className="w-full h-full object-contain rounded-md"
-                alt="NPS App Mockup"
+                alt="How to Ace Your Interview Flyer"
               />
             </div>
           </div>
@@ -121,4 +107,4 @@ function NPS_PNW() {
   );
 }
 
-export default NPS_PNW;
+export default TaskPage;
