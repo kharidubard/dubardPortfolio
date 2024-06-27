@@ -14,7 +14,7 @@ import TaskPage from './pages/designs/Task_Page.jsx';
 import DC_Web from './pages/designs/DC_webdesigns.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='/dubardPortfolio'>
+  <BrowserRouter basename='/dubardPortfolio/'>
     <Routes>
       <Route path="/" element={<Base />}>
         <Route index element={<Home />} />
