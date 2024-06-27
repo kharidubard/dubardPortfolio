@@ -62,13 +62,13 @@ function AliveIV() {
               <img
                 src="/src\assets\projectFiles\AliveIVHome.png"
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
-                alt="Design & Code Website Home Page"
+                alt="Alive Website Home Page"
               />
 
               <img
                 src="/src\assets\projectFiles\AliveLogo.jpg"
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)] mt-5"
-                alt="Design & Code Website Home Page"
+                alt="Alive IV Lounge Logo"
               />
 
               <div className="mt-8 flex flex-col md:flex-row">

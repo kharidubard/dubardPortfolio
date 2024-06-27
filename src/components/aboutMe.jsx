@@ -23,7 +23,7 @@ function About() {
             <img
               src="src\assets\KhariInVegasResized.jpg"
               className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
-              alt="Profile"
+              alt="Khari DuBard in Las Vegas"
             />
           </div>
 

@@ -23,7 +23,7 @@ function DC_Web() {
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
                 A collection of Figma page designs for the Design & Code
-                website. This designs are unimplemented.
+                website. This designs were developed but unimplemented.
               </p>
 
               <div className="mt-16">
@@ -74,23 +74,33 @@ function DC_Web() {
               <img
                 src="/src\assets\projectFiles\designFiles\KhariAboutRedesign.webp"
                 className="w-full h-full object-contain rounded-md"
-                alt="Design & Code Shirts - Instagram Post"
+                alt="Design & Code About Page Figma Design"
               />
             </div>
+            <div className="py-8">
+            <h1 className="text-[28px] font-medium text-white">
+              Contact Page Design
+            </h1>
+          </div>
             <div className="w-full h-full rounded-md shadow-md">
               {/* Second Image */}
               <img
                 src="/src\assets\projectFiles\designFiles\Contact Page-Web.webp"
                 className="w-full h-full object-cover rounded-md"
-                alt="Image 2"
+                alt="Design & Code Contact Page Figma Design"
               />
             </div>
+            <div className="py-8">
+            <h1 className="text-[28px] font-medium text-white">
+              Membership Page Design
+            </h1>
+          </div>
             <div className="w-full h-full rounded-md shadow-md">
               {/* Second Image */}
               <img
                 src="/src\assets\projectFiles\designFiles\MembershipPage-Web.webp"
                 className="w-full h-full object-cover rounded-md"
-                alt="Image 2"
+                alt="Design & Code Membership Page Figma Design"
               />
             </div>
           </div>

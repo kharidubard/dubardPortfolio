@@ -41,7 +41,7 @@ function Hero() {
   <img
     src="src\assets\headshot1square.jpg"
     className="hidden md:block h-64 w-64 md:h-[384px] md:w-[384px] rounded-full shadow-lg object-cover"
-    alt="Profile"
+    alt="Khari DuBard Profile Picture"
   />
 </div>
     </animated.div>

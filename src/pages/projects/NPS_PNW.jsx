@@ -64,7 +64,7 @@ function NPS_PNW() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/khari-dubard-b90ba2248/"
+                  href="https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?node-id=578-1120&t=X9x8E6vJYOcPiRab-1&scaling=scale-down&content-scaling=responsive&page-id=249%3A70&starting-point-node-id=578%3A1120"
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
                     Figma Prototype
@@ -73,7 +73,7 @@ function NPS_PNW() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1ZeJz13SMJnYZyWHPRH7ANosq5xtI2f2M/view?usp=sharing"
+                  href="https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?node-id=1147-1653&t=S4vQIdRPsuk2hlal-1&scaling=scale-down&content-scaling=fixed&page-id=1110%3A2178&starting-point-node-id=1147%3A1653"
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4">
                     Style Guide

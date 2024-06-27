@@ -9,7 +9,7 @@ function DCBrand() {
         <div className="w-full md:max-w-[1200px] mx-auto gap-y-10 gap-x-10">
           <div className="flex justify-end">
             <div className="bg-primaryOrange text-white rounded-tl-lg rounded-tr-lg px-2 py-1 text-xs z-10">
-              Branding
+              Branding & Designs
             </div>
           </div>
 
@@ -42,28 +42,40 @@ function DCBrand() {
           {/* Grid Row Layout */}
           {/* Merch */}
           <div className="py-8">
-            <h1 className="text-[28px] font-medium text-white">
-              Merch and Promotional Products
-            </h1>
-          </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <div className="bg-gray-200 w-full h-[360px] rounded-md shadow-md">
-              {/* First Image */}
-              <img
-                src="/src/assets/projectFiles/brandingFiles/dcBranding/Design & Code Shirts - Instagram Post.webp"
-                className="w-full h-full object-contain rounded-md"
-                alt="Design & Code Shirts - Instagram Post"
-              />
-            </div>
-            <div className="bg-gray-200 w-full h-[360px] rounded-md shadow-md">
-              {/* Second Image */}
-              <img
-                src="/src/assets/projectFiles/brandingFiles/dcBranding/Navy-Blue.webp"
-                className="w-full h-full object-cover rounded-md"
-                alt="Image 2"
-              />
-            </div>
-          </div>
+  <h1 className="text-[28px] font-medium text-white">
+    Merch and Promotional Products
+  </h1>
+</div>
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+  <div className="bg-gray-200 w-full h-[360px] rounded-md shadow-md">
+    {/* First Image */}
+    <img
+      src="/src/assets/projectFiles/brandingFiles/dcBranding/Design & Code Shirts - Instagram Post.webp"
+      className="w-full h-full object-contain rounded-md"
+      alt="Design & Code Shirts - Instagram Post"
+    />
+  </div>
+  <div className="bg-gray-200 w-full h-[360px] rounded-md shadow-md">
+    {/* Second Image */}
+    <img
+      src="/src/assets/projectFiles/brandingFiles/dcBranding/Navy-Blue.webp"
+      className="w-full h-full object-cover rounded-md"
+      alt="Navy Blue Design & Code Shirt Design Front and Back"
+    />
+  </div>
+  <div className="bg-gray-200 w-full h-[360px] rounded-md shadow-md">
+    {/* Embedded Video */}
+    <iframe
+      src="https://youtube.com/embed/Y6H4EGDD7-E?feature=share"
+      className="w-full h-full rounded-md"
+      style={{ border: 0 }}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded Video"
+    ></iframe>
+  </div>
+</div>
+
 
           {/* Flyer Designs */}
           <div className="py-8">
