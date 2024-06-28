@@ -20,7 +20,7 @@ const projects = [
     title: "Design & Code Website",
     date: "January 2024",
     description:
-      "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
+      "A website for the Design and Code club at the University ofCentral Florida. I served as the lead designer for the site assisting with UI/UX design and front-end development.",
     image: DCHome,
     link: "/pages/projects/dcSite",
   },
@@ -60,7 +60,7 @@ function Projects() {
                 className="hover:no-underline"
                 rel="noreferrer"
               >
-                <div className="bg-white rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.2)] hover:shadow-2xl">
+                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -87,4 +87,3 @@ function Projects() {
 }
 
 export default Projects;
-

@@ -56,7 +56,7 @@ function ProjectSection() {
                 className="hover:no-underline"
                 rel="noreferrer"
               >
-                <div className="bg-white rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.2)] hover:shadow-2xl">
+                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl">
                   <img
                     src={project.image}
                     alt={project.title}

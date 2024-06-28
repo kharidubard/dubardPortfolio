@@ -28,7 +28,7 @@ function DCSite() {
             <h2 className="font-bold text-[24px]">Overview</h2>
             <p className="xs:text-[14px] md:text-[16px]">
               A website for the Design and Code club at the University of
-              Central Florida. I am lead designer for the site assisting with
+              Central Florida. I served as the lead designer for the site assisting with
               UI/UX design and front-end development.
             </p>
 
