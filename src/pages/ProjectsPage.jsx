@@ -1,5 +1,7 @@
-import React from 'react';
+import React from "react";
 import Footer from "../components/Footer";
+import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
 
 const projects = [
   {
@@ -41,6 +43,9 @@ const projects = [
 ];
 
 function Projects() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="flex flex-col min-h-screen bg-primaryDarkBrown">
       {/* Main Content */}
@@ -56,13 +61,15 @@ function Projects() {
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mb-8">
             {projects.map((project) => (
-              <a
+              <NavLink
                 key={project.id}
-                href={project.link}
+                to={project.link}
+                // target="_blank"
                 className="hover:no-underline"
                 rel="noreferrer"
               >
                 <div className="bg-white rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.2)] hover:shadow-2xl">
+                  {/* Add your existing card content here */}
                   <img
                     src={project.image}
                     alt={project.title}
@@ -76,7 +83,7 @@ function Projects() {
                     <p className="mt-2 text-gray-800">{project.description}</p>
                   </div>
                 </div>
-              </a>
+              </NavLink>
             ))}
           </div>
         </div>
