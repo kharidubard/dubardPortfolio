@@ -2,10 +2,15 @@ import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
 
+import TaskPageNew from "../../assets/projectFiles/designFiles/TaskPageNew.webp";
+import TaskPageHomeSS from "../../assets/projectFiles/designFiles/TaskPageHomeSS.webp";
+import TaskPagePopUp from "../../assets/projectFiles/designFiles/TaskPagePopUp.webp";
+
 function TaskPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className="bg-primaryDarkBrown min-h-screen">
       <div className="container mx-auto sm:px-6 lg:px-8">
@@ -26,7 +31,7 @@ function TaskPage() {
               </h1>
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
-                A propsed redesign for the Limbitless Solutions tasking page.
+                A proposed redesign for the Limbitless Solutions tasking page.
               </p>
 
               <div className="mt-16">
@@ -40,9 +45,9 @@ function TaskPage() {
             {/* Right Column Content */}
             <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
-                src="/src\assets\projectFiles\designFiles\TaskPageNew.webp"
+                src={TaskPageNew}
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
-                alt="Design & Code Logo"
+                alt="Task Page New Design"
               />
 
               <div className="mt-8 flex flex-col md:flex-row">
@@ -55,50 +60,35 @@ function TaskPage() {
                     Figma Prototype
                   </button>
                 </a>
-                {/* <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1ZeJz13SMJnYZyWHPRH7ANosq5xtI2f2M/view?usp=sharing"
-                >
-                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4">
-                    Style Guide
-                  </button>
-                </a> */}
               </div>
             </div>
           </div>
 
           {/* Grid Row Layout */}
-          {/* Merch */}
-
-          {/* Flyer Designs */}
+          {/* Mockups */}
           <div className="py-8">
             <h1 className="text-[28px] font-medium text-white">Mockups</h1>
           </div>
           <div className="grid grid-cols-1 gap-4 mb-8">
             <div className="w-full h-[800px] rounded-md shadow-md">
-              {/* First Image */}
               <img
-                src="/src\assets\projectFiles\designFiles\TaskPageHomeSS.webp"
+                src={TaskPageHomeSS}
                 className="w-full h-full object-contain rounded-md"
-                alt="How to Ace Your Interview Flyer"
+                alt="Task Page Home Screen"
               />
             </div>
             <div className="w-full h-[800px] rounded-md shadow-md">
-              {/* First Image */}
               <img
-                src="/src\assets\projectFiles\designFiles\TaskPageNew.webp"
+                src={TaskPageNew}
                 className="w-full h-full object-contain rounded-md"
-                alt="How to Ace Your Interview Flyer"
+                alt="Task Page New Design"
               />
             </div>
-
             <div className="w-full h-[800px] rounded-md shadow-md">
-              {/* First Image */}
               <img
-                src="/src\assets\projectFiles\designFiles\TaskPagePopUp.webp"
+                src={TaskPagePopUp}
                 className="w-full h-full object-contain rounded-md"
-                alt="How to Ace Your Interview Flyer"
+                alt="Task Page Pop Up"
               />
             </div>
           </div>
@@ -112,3 +102,4 @@ function TaskPage() {
 }
 
 export default TaskPage;
+

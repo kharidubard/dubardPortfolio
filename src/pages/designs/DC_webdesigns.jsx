@@ -2,10 +2,16 @@ import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
 
+import KhariRedesignMac from "../../assets/projectFiles/designFiles/Khari RedesignMac.png";
+import KhariAboutRedesign from "../../assets/projectFiles/designFiles/KhariAboutRedesign.webp";
+import ContactPageWeb from "../../assets/projectFiles/designFiles/Contact Page-Web.webp";
+import MembershipPageWeb from "../../assets/projectFiles/designFiles/MembershipPage-Web.webp";
+
 function DC_Web() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className="bg-primaryDarkBrown min-h-screen">
       <div className="container mx-auto px-0 sm:px-6 lg:px-8">
@@ -27,7 +33,7 @@ function DC_Web() {
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
                 A collection of Figma page designs for the Design & Code
-                website. This designs were developed but unimplemented.
+                website. These designs were developed but unimplemented.
               </p>
 
               <div className="mt-16">
@@ -46,7 +52,7 @@ function DC_Web() {
             {/* Right Column Content */}
             <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
-                src="/src\assets\projectFiles\designFiles\Khari RedesignMac.png"
+                src={KhariRedesignMac}
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
                 alt="Design & Code About Page Figma Design"
               />
@@ -66,7 +72,7 @@ function DC_Web() {
           </div>
 
           {/* Grid Row Layout */}
-          {/* Merch */}
+          {/* About Page Design */}
           <div className="py-8">
             <h1 className="text-[28px] font-medium text-white">
               About Page Design
@@ -74,35 +80,40 @@ function DC_Web() {
           </div>
           <div className="grid grid-cols-1 gap-4">
             <div className="w-full h-full rounded-md shadow-md">
-              {/* First Image */}
               <img
-                src="/src\assets\projectFiles\designFiles\KhariAboutRedesign.webp"
+                src={KhariAboutRedesign}
                 className="w-full h-full object-contain rounded-md"
                 alt="Design & Code About Page Figma Design"
               />
             </div>
-            <div className="py-8">
+          </div>
+
+          {/* Contact Page Design */}
+          <div className="py-8">
             <h1 className="text-[28px] font-medium text-white">
               Contact Page Design
             </h1>
           </div>
+          <div className="grid grid-cols-1 gap-4">
             <div className="w-full h-full rounded-md shadow-md">
-              {/* Second Image */}
               <img
-                src="/src\assets\projectFiles\designFiles\Contact Page-Web.webp"
+                src={ContactPageWeb}
                 className="w-full h-full object-cover rounded-md"
                 alt="Design & Code Contact Page Figma Design"
               />
             </div>
-            <div className="py-8">
+          </div>
+
+          {/* Membership Page Design */}
+          <div className="py-8">
             <h1 className="text-[28px] font-medium text-white">
               Membership Page Design
             </h1>
           </div>
+          <div className="grid grid-cols-1 gap-4">
             <div className="w-full h-full rounded-md shadow-md">
-              {/* Second Image */}
               <img
-                src="/src\assets\projectFiles\designFiles\MembershipPage-Web.webp"
+                src={MembershipPageWeb}
                 className="w-full h-full object-cover rounded-md"
                 alt="Design & Code Membership Page Figma Design"
               />
@@ -119,3 +130,5 @@ function DC_Web() {
 }
 
 export default DC_Web;
+
+
