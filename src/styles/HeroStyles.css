@@ -1,7 +1,7 @@
 .articles {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1024px;
+    max-width: 124px;
     margin: 0 auto;
     justify-content: space-around;
     background: #fff;

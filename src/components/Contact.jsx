@@ -11,7 +11,7 @@ function Contact() {
             Contact Me
           </h1>
         </div>
-        <div className="relative flex flex-col flex-none justify-center content-center h-[156px] md:w-[632px] xs:w-[398px]">
+        <div className="relative flex flex-col flex-none justify-center content-center h-auto md:w-[632px] xs:w-[398px]">
           <p className="text-center md:text-[18px] xs:text-[18px] font-regular xs:p-[25px]">
             Feel free to reach out to me for any inquiries or collaborations.
             Whether you have a project in mind, want to discuss opportunities,

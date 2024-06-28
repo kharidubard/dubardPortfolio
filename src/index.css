@@ -8,8 +8,14 @@ body{
   box-sizing: border-box;
   /* text-rendering: optimizeLegibility; */
   -webkit-font-smoothing: antialiased;
+  
 
+}
 
+@media (max-width: 768px) {
+  *{
+    overflow-x: hidden; /* Hides horizontal overflow on mobile screens */
+  }
 }
 
 .underline-animation {

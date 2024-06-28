@@ -37,7 +37,7 @@ function ProjectSection() {
   return (
     <>
       {/* Title */}
-      <div className="px-10">
+      <div className="px-6">
         <div className="text-center">
           <h1 className="text-[44px] text-white font-semibold mb-20">
             My Projects
