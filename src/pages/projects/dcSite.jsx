@@ -19,7 +19,7 @@ function DCSite() {
 
         <div className="bg-primaryLightBiege text-black rounded-tl-md rounded-bl-md rounded-br-md flex flex-col md:flex-row md:shadow-[0px_5px_4px_rgba(0,0,0,0.2)]">
           {/* Left Column */}
-          <div className="p-4 px-8 md:w-1/2 mt-4">
+          <div className="p-4 md:w-1/2 mt-4">
             {/* Content for the left column */}
             <h1 className="text-left text-[36px] mb-4 font-bold text-primaryDarkBrown">
               Design & Code Website

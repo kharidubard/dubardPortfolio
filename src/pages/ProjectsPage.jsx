@@ -29,7 +29,7 @@ const projects = [
     description:
       "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
     image: "src/assets/projectFiles/AliveLogo.jpg",
-    link: "pages/projects/AliveIV",
+    link: "/pages/projects/AliveIV",
   },
   // {
   //   id: 4,

@@ -11,7 +11,7 @@ const projects = [
     description:
       "My designs and promotional material for the Design & Code club at the University of Central Florida.",
     image: "src/assets/projectFiles/DCLogoBlack.png",
-    link: "pages/designs/DC_Branding",
+    link: "/pages/designs/DC_Branding",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     description:
       "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
     image: "/src/assets/projectFiles/designFiles/TaskPageNew.webp",
-    link: "pages/designs/Task_Page",
+    link: "/pages/designs/Task_Page",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     date: "Fall 2023",
     description: "A collection of page designs for the Design & Code website.",
     image: "/src/assets/projectFiles/designFiles/Khari RedesignMac.png",
-    link: "pages/designs/DC_webdesigns",
+    link: "/pages/designs/DC_webdesigns",
   },
   // {
   //   id: 4,
