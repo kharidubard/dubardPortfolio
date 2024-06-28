@@ -6,13 +6,13 @@ function Footer() {
           <p className="text-[14px] md:text-base mb-4 md:mb-0">© 2024 Created by Khari DuBard</p>
           <ul className="flex flex-wrap justify-center md:justify-end space-x-4">
             <li>
-              <a href="#" className="hover:text-black">Home</a>
+              <a href="" className="hover:text-black">Home</a>
             </li>
             <li>
-              <a href="#" className="hover:text-black">About</a>
+              <a href="" className="hover:text-black"></a>
             </li>
             <li>
-              <a href="#" className="hover:text-black">Contact</a>
+              <a href="/contact" className="hover:text-black">Contact</a>
             </li>
           </ul>
         </div>
