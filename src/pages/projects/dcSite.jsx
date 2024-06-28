@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
+import DCHome from "../../assets/projectFiles/DCHome.png";
 
 function DCSite() {
   useEffect(() => {
@@ -57,7 +58,7 @@ function DCSite() {
           {/* Right Column Content */}
           <div className="p-4 px-8 md:w-1/2 mt-4">
             <img
-              src="/src\assets\projectFiles\DCHome.png"
+              src={DCHome}
               className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
               alt="Design & Code Website Home Page"
             />
@@ -92,4 +93,6 @@ function DCSite() {
     </div>
   );
 }
+
 export default DCSite;
+

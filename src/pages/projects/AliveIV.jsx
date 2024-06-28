@@ -1,6 +1,8 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
+import AliveIVHome from "../../assets/projectFiles/AliveIVHome.png";
+import AliveLogo from "../../assets/projectFiles/AliveLogo.jpg";
 
 function AliveIV() {
   useEffect(() => {
@@ -26,7 +28,7 @@ function AliveIV() {
               </h1>
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
-                A website design for a potential IV Lounge company.The project
+                A website design for a potential IV Lounge company. The project
                 scope included creating key pages such as the home page, about
                 page, services page, products page, and contact page. The goal
                 was to design a visually appealing and user-friendly website
@@ -39,7 +41,7 @@ function AliveIV() {
               <div className="mt-8">
                 <h2 className="font-bold text-[24px]">Goal</h2>
                 <p className="text-16 md:text-20">
-                  The site was a propsed design for a potential IV Lounge
+                  The site was a proposed design for a potential IV Lounge
                   company.
                 </p>
               </div>
@@ -64,13 +66,13 @@ function AliveIV() {
             {/* Right Column Content */}
             <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
-                src="/src\assets\projectFiles\AliveIVHome.png"
+                src={AliveIVHome}
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
                 alt="Alive Website Home Page"
               />
 
               <img
-                src="/src\assets\projectFiles\AliveLogo.jpg"
+                src={AliveLogo}
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)] mt-5"
                 alt="Alive IV Lounge Logo"
               />
