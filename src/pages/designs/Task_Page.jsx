@@ -1,7 +1,11 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { useEffect } from "react";
 
 function TaskPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-primaryDarkBrown min-h-screen">
       <div className="container mx-auto sm:px-6 lg:px-8">
@@ -45,13 +49,13 @@ function TaskPage() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/khari-dubard-b90ba2248/"
+                  href="https://www.figma.com/proto/YBBtpdmfBaOtiAmQyLfEeZ?node-id=0-1&t=eDvNvuNKruYTYsL7-6"
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
                     Figma Prototype
                   </button>
                 </a>
-                <a
+                {/* <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/1ZeJz13SMJnYZyWHPRH7ANosq5xtI2f2M/view?usp=sharing"
@@ -59,7 +63,7 @@ function TaskPage() {
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4">
                     Style Guide
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

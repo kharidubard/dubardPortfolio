@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
+import headshot1square from '../../src/assets/headshot1.jpg'
+
 
 function Hero() {
   const fadeIn = useSpring({
@@ -39,10 +41,11 @@ function Hero() {
       <div className="flex-1 flex justify-center items-center">
   {/* Content for the right column */}
   <img
-    src="src\assets\headshot1square.jpg"
-    className="hidden md:block h-64 w-64 md:h-[384px] md:w-[384px] rounded-full shadow-lg object-cover"
-    alt="Khari DuBard Profile Picture"
-  />
+  src={headshot1square}
+  className="hidden md:block h-64 w-64 md:h-[384px] md:w-[384px] rounded-full shadow-lg object-cover"
+  alt="Khari DuBard Profile Picture"
+/>
+
 </div>
     </animated.div>
   </>
