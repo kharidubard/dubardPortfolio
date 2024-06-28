@@ -1,7 +1,11 @@
 import React from "react";
 import Footer from "../../components/Footer";
+import { useEffect } from "react";
 
 function DC_Web() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-primaryDarkBrown min-h-screen">
       <div className="container mx-auto px-0 sm:px-6 lg:px-8">

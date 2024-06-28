@@ -46,9 +46,9 @@ function DesignSection() {
         <div className="flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
             {projects.map((project) => (
-              <a
+              <NavLink
                 key={project.id}
-                href={project.link}
+                to={project.link}
                 // target="_blank"
                 className="hover:no-underline"
                 rel="noreferrer"
@@ -68,7 +68,7 @@ function DesignSection() {
                     <p className="mt-2 text-gray-800">{project.description}</p>
                   </div>
                 </div>
-              </a>
+              </NavLink>
             ))}
           </div>
         </div>

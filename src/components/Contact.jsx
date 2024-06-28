@@ -15,7 +15,7 @@ function Contact() {
           <p className="text-center md:text-[18px] xs:text-[18px] font-regular xs:p-[25px]">
             Feel free to reach out to me for any inquiries or collaborations.
             Whether you have a project in mind, want to discuss opportunities,
-            or just want to say hello, I`&apos;`d love to hear from you!
+            or just want to say hello, I would love to hear from you!
           </p>
         </div>
       </div>

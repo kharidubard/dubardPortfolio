@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="bg-primaryOrange text-white py-4">
@@ -11,9 +13,12 @@ function Footer() {
             <li>
               <a href="" className="hover:text-black"></a>
             </li>
-            <li>
-              <a href="/contact" className="hover:text-black">Contact</a>
-            </li>
+            <NavLink
+								to="/contact"
+								className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
+								Contact
+								<span className="underline-animation"></span>
+							</NavLink>
           </ul>
         </div>
       </div>

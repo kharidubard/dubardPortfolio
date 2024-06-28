@@ -2,6 +2,9 @@ import React from "react";
 import Footer from "../../components/Footer";
 
 function NPS_PNW() {
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   return (
     <div className="bg-primaryDarkBrown min-h-screen">
       <div className="container mx-auto px-0 sm:px-6 lg:px-8">
@@ -35,8 +38,23 @@ function NPS_PNW() {
                 incorporated, along with multiple pathways for task completion
                 to accommodate varying levels of expertise.
               </p>
+              <div className="mt-4">
+                <h2 className="font-bold text-[24px]">Achievements</h2>
+                <p className="text-16 md:text-20">
+                  Selected for and showcased the{" "}
+                  <a
+                    href="https://communication.ucf.edu/digital-media-students-make-an-impression-during-showcase/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primaryOrange font-semibold hover:underline"
+                  >
+                    Nicholson School of Communication and Media Web Design
+                    Showcase.
+                  </a>
+                </p>
+              </div>
 
-              <div className="mt-16">
+              <div className="mt-4">
                 <h2 className="font-bold text-[24px]">
                   My Role in this project
                 </h2>
@@ -80,6 +98,25 @@ function NPS_PNW() {
                   </button>
                 </a>
               </div>
+            </div>
+          </div>
+
+          <div className="py-8">
+            <h1 className="text-[28px] font-medium text-white">
+              App Walkthrough
+            </h1>
+          </div>
+          <div className="grid grid-cols-1 gap-4 mb-8">
+            <div className="bg-gray-200 w-full h-[560px] rounded-md shadow-md">
+              {/* Embedded Video */}
+              <iframe
+                src="https://www.youtube.com/embed/p4DC5M7nXEc"
+                className="w-full h-full rounded-md"
+                style={{ border: 0 }}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded Video"
+              ></iframe>
             </div>
           </div>
 
