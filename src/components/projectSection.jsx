@@ -10,7 +10,7 @@ const projects = [
     date: "September 2023",
     description:
       "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
-    image: "src/assets/projectFiles/npsProjectCover.png",
+    image: "\src/assets/projectFiles/npsProjectCover.png",
     link: "/pages/projects/NPS_PNW",
   },
   {
