@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
-import { useEffect } from "react";
+import npsProjectCover from "../assets/projectFiles/npsProjectCover.png";
+import DCHome from "../assets/projectFiles/DCHome.png";
+import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
 
 const projects = [
   {
@@ -10,7 +12,7 @@ const projects = [
     date: "February 2024",
     description:
       "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
-    image: "src/assets/projectFiles/npsProjectCover.png",
+    image: npsProjectCover,
     link: "/pages/projects/NPS_PNW",
   },
   {
@@ -19,7 +21,7 @@ const projects = [
     date: "January 2024",
     description:
       "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
-    image: "/src/assets/projectFiles/DCHome.png",
+    image: DCHome,
     link: "/pages/projects/dcSite",
   },
   {
@@ -28,18 +30,9 @@ const projects = [
     date: "May 2023",
     description:
       "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
-    image: "src/assets/projectFiles/AliveLogo.jpg",
+    image: AliveLogo,
     link: "/pages/projects/AliveIV",
   },
-  // {
-  //   id: 4,
-  //   title: "Example",
-  //   date: "Date",
-  //   description:
-  //     "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
-  //   image: "src/assets/projectFiles/npsProjectCover.png",
-  //   link: "https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?type=design&node-id=578-1120&t=20eGXt1nB0FweV2E-1&scaling=scale-down&page-id=249%3A70&starting-point-node-id=578%3A1120&mode=design",
-  // },
 ];
 
 function Projects() {
@@ -64,12 +57,10 @@ function Projects() {
               <NavLink
                 key={project.id}
                 to={project.link}
-                // target="_blank"
                 className="hover:no-underline"
                 rel="noreferrer"
               >
                 <div className="bg-white rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.2)] hover:shadow-2xl">
-                  {/* Add your existing card content here */}
                   <img
                     src={project.image}
                     alt={project.title}
@@ -96,3 +87,4 @@ function Projects() {
 }
 
 export default Projects;
+

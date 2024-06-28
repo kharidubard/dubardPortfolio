@@ -1,6 +1,9 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
+import DCLogoBlack from '../assets/projectFiles/DCLogoBlack.png';
+import TaskPageNew from '../assets/projectFiles/designFiles/TaskPageNew.webp';
+import KhariRedesignMac from '../assets/projectFiles/designFiles/Khari RedesignMac.png';
 
 const projects = [
   {
@@ -8,8 +11,8 @@ const projects = [
     title: "Design & Code Branding",
     date: "Fall 2023 - Spring 2024",
     description:
-      "My designs and promotial material for the Design & Code club at the University of Central Florida.",
-    image: "src/assets/projectFiles/DCLogoBlack.png",
+      "My designs and promotional material for the Design & Code club at the University of Central Florida.",
+    image: DCLogoBlack,
     link: "pages/designs/DC_Branding",
   },
   {
@@ -18,7 +21,7 @@ const projects = [
     date: "May 2023",
     description:
       "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
-    image: "/src/assets/projectFiles/designFiles/TaskPageNew.webp",
+    image: TaskPageNew,
     link: "pages/designs/Task_Page",
   },
   {
@@ -26,7 +29,7 @@ const projects = [
     title: "Design & Code Website Page Designs",
     date: "Fall 2023",
     description: "A collection of page designs for the Design & Code website.",
-    image: "/src/assets/projectFiles/designFiles/Khari RedesignMac.png",
+    image: KhariRedesignMac,
     link: "pages/designs/DC_webdesigns",
   },
 ];
@@ -49,12 +52,10 @@ function DesignSection() {
               <NavLink
                 key={project.id}
                 to={project.link}
-                // target="_blank"
                 className="hover:no-underline"
                 rel="noreferrer"
               >
                 <div className="bg-white rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.2)] hover:shadow-2xl">
-                  {/* Add your existing card content here */}
                   <img
                     src={project.image}
                     alt={project.title}
@@ -88,3 +89,4 @@ function DesignSection() {
 }
 
 export default DesignSection;
+
