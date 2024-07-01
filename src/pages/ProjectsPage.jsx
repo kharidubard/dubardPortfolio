@@ -24,15 +24,15 @@ const projects = [
     image: DCHome,
     link: "/pages/projects/dcSite",
   },
-  {
-    id: 3,
-    title: "Alive IV Lounge",
-    date: "May 2023",
-    description:
-      "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
-    image: AliveLogo,
-    link: "/pages/projects/AliveIV",
-  },
+  // {
+  //   id: 3,
+  //   title: "Alive IV Lounge",
+  //   date: "May 2023",
+  //   description:
+  //     "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
+  //   image: AliveLogo,
+  //   link: "/pages/projects/AliveIV",
+  // },
 ];
 
 function Projects() {
