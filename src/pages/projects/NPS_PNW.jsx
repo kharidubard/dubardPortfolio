@@ -45,7 +45,7 @@ function NPS_PNW() {
               <div className="mt-4">
                 <h2 className="font-bold text-[24px]">Achievements</h2>
                 <p className="text-16 md:text-20">
-                  Selected for and showcased the{" "}
+                  Selected for and showcased at the{" "}
                   <a
                     href="https://communication.ucf.edu/digital-media-students-make-an-impression-during-showcase/"
                     target="_blank"
