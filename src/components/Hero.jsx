@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 import headshot1square from '../../src/assets/headshot1.jpg'
+import { NavLink } from "react-router-dom";
 
 
 function Hero() {
@@ -24,16 +25,19 @@ function Hero() {
         <h2 className="text-lg font-semibold mb-2 md:pl-14">DuBard</h2>
         <p className="text-md md:text-base md:pl-14">Web Developer | UI/UX Designer</p>
         <div className="mt-8 flex flex-col md:flex-row">
-          <a rel="noopener noreferrer" href="/contact">
+          <NavLink
+            to="/contact"
+          >
             <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
               Contact Me
             </button>
-          </a>
+      
           <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/184btlHM-eZGdbK4RQe17Smp1iqNXXdMG/view?usp=sharing">
             <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4">
               My Resume
             </button>
           </a>
+          </NavLink>
         </div>
       </div>
 
