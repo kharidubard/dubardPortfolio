@@ -31,13 +31,13 @@ function Hero() {
             <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
               Contact Me
             </button>
-      
+      </NavLink>
           <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/184btlHM-eZGdbK4RQe17Smp1iqNXXdMG/view?usp=sharing">
             <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4">
               My Resume
             </button>
           </a>
-          </NavLink>
+          
         </div>
       </div>
 
