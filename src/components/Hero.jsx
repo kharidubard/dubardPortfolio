@@ -23,17 +23,17 @@ function Hero() {
         <h2 className="text-lg mb-5">Hello! I&apos;m</h2>
         <h2 className="text-lg font-semibold">Khari</h2>
         <h2 className="text-lg font-semibold mb-2 md:pl-14">DuBard</h2>
-        <p className="text-md md:text-base md:pl-14">Web Developer | UI/UX Designer</p>
+        <p className="text-md md:text-base md:pl-14">Web Developer <br /> UI/UX Designer</p>
         <div className="mt-8 flex flex-col md:flex-row">
           <NavLink
             to="/contact"
           >
-            <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
+            <button className="transition duration-200 hover:scale-105 text-white text-[22px] bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
               Contact Me
             </button>
       </NavLink>
           <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/184btlHM-eZGdbK4RQe17Smp1iqNXXdMG/view?usp=sharing">
-            <button className="transition duration-200 hover:scale-105 text-white text-md bg-primaryOrange rounded-xl py-2 px-4">
+            <button className="transition duration-200 hover:scale-105 text-white text-[22px] bg-primaryOrange rounded-xl py-2 px-4">
               My Resume
             </button>
           </a>

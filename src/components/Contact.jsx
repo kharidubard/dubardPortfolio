@@ -42,7 +42,7 @@ function Contact() {
               <span className="pt-[27.3px] font-semibold">LinkedIn</span>
             </div>
             <p className="text-left mt-[10px] ml-[30px] mb-[14px]">
-              Connect With Me On LinkedIn .
+              Connect With Me On LinkedIn.
             </p>
           </a>
         </div>
@@ -99,7 +99,7 @@ function Contact() {
               <span className="pt-[27.3px] font-semibold">Email</span>
             </div>
             <p className="text-left mt-[10px] ml-[30px] mb-[14px]">
-              Feel Free to Reach Out Via Emaill
+              Feel Free to Reach Out Via Email.
             </p>
           </a>
         </div>
