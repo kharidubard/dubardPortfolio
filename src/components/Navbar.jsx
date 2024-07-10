@@ -8,6 +8,10 @@ function Navbar() {
     setIsActive(!isActive);
   };
 
+  const handleLinkClick = () => {
+    setIsActive(false);
+  };
+
   return (
     <>
       <header
@@ -63,24 +67,28 @@ function Navbar() {
             <ul className="bg-[#f2f2f2] md:bg-transparent flex flex-col justify-center items-center h-full w-full gap-5 md:flex-row md:justify-start lg:flex-row">
               <NavLink
                 to="/"
+                onClick={handleLinkClick}
                 className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
                 Home
                 <span className="underline-animation"></span>
               </NavLink>
               <NavLink
                 to="/projects"
+                onClick={handleLinkClick}
                 className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
                 Projects
                 <span className="underline-animation"></span>
               </NavLink>
               <NavLink
                 to="/designs"
+                onClick={handleLinkClick}
                 className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
                 Designs
                 <span className="underline-animation"></span>
               </NavLink>
               <NavLink
                 to="/contact"
+                onClick={handleLinkClick}
                 className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
                 Contact
                 <span className="underline-animation"></span>
@@ -94,3 +102,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
