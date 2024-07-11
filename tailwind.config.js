@@ -23,7 +23,6 @@ export default {
       'xl': '1280px',
       '2xl': '1536px',
       'yo': {'min': '0', 'max': '767px'},
-      'yo': {'min': '0', 'max': '767px'},
       ...defaultTheme.screens,
     },
 
@@ -32,7 +31,15 @@ export default {
       fontFamily: {
         'sans': ["'Poppins', sans-serif;"],
       },
-
+      animation: {
+        'infinite-scroll': 'infinite-scroll 20s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(15%)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      },            
 
       colors: {
         primaryOrange:'#EB5E28',

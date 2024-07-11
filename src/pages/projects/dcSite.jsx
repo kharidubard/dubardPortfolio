@@ -56,7 +56,7 @@ function DCSite() {
           </div>
 
           {/* Right Column Content */}
-          <div className="p-4 px-8 md:w-1/2 mt-4">
+          <div className="p-4 md:w-1/2 mt-4">
             <img
               src={DCHome}
               className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"

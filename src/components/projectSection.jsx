@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import npsProjectCover from '../assets/projectFiles/npsProjectCover.png';
-import DCHome from '../assets/projectFiles/DCHome.png';
-import AliveLogo from '../assets/projectFiles/AliveLogo.jpg';
+import npsProjectCover from "../assets/projectFiles/npsProjectCover.png";
+import DCHome from "../assets/projectFiles/DCHome.png";
+import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
 
 const projects = [
   {
@@ -20,19 +20,19 @@ const projects = [
     title: "Design & Code Website",
     date: "October 2023",
     description:
-      "A website for the Design and Code club at the University of Central Florida. I am lead designer for the site assisting with UI/UX design and front-end development.",
+      "A website for the Design and Code club at the University of Central Florida. I served as lead designer for the site, assisting with UI/UX design and front-end development.",
     image: DCHome,
     link: "/pages/projects/dcSite",
   },
-  // {
-  //   id: 3,
-  //   title: "Alive IV Lounge",
-  //   date: "May 2023",
-  //   description:
-  //     "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
-  //   image: AliveLogo,
-  //   link: "pages/projects/AliveIV",
-  // },
+  {
+    id: 3,
+    title: "Portfolio Website",
+    date: "July 2024",
+    description:
+      "A redesign and development of my portfolio website. The process involved an overhaul, focusing on improving the user experience, visual design, and functionality.",
+    image: AliveLogo,
+    link: "pages/projects/",
+  },
 ];
 
 function ProjectSection() {
@@ -56,7 +56,7 @@ function ProjectSection() {
                 className="hover:no-underline"
                 rel="noreferrer"
               >
-                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl">
+                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl overflow-x-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -90,4 +90,3 @@ function ProjectSection() {
 }
 
 export default ProjectSection;
-

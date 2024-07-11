@@ -4,6 +4,12 @@ import npsProjectCover from "../../assets/projectFiles/npsProjectCover.png";
 import npsMockup1 from "../../assets/projectFiles/npsMockups/NPS-PNW-Mockups-1.webp";
 import npsMockup2 from "../../assets/projectFiles/npsMockups/NPS-PNW-Mockups-2.webp";
 import npsMockup3 from "../../assets/projectFiles/npsMockups/NPS-PNW-Mockups-3.webp";
+import { FaFigma } from "react-icons/fa6";
+import { TbBrandReactNative } from "react-icons/tb";
+import { VscVscode } from "react-icons/vsc";
+import { SiAdobeillustrator } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoFirebase } from "react-icons/io5";
 
 function NPS_PNW() {
   useEffect(() => {
@@ -75,7 +81,7 @@ function NPS_PNW() {
             </div>
 
             {/* Right Column Content */}
-            <div className="p-4 px-8 md:w-1/2 mt-4">
+            <div className="p-4 md:w-1/2 mt-4">
               <img
                 src={npsProjectCover}
                 className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
@@ -101,6 +107,88 @@ function NPS_PNW() {
                     Style Guide
                   </button>
                 </a>
+              </div>
+
+              {/* Tools Used Section  */}
+              <div className="mt-6 ">
+                <h2 className="font-bold text-[24px] xs:text-[20px]">
+                  Tools, Programs, and Languages Used:
+                </h2>
+                <div className="grid grid-cols-3 gap-x-6">
+                  <div className="">
+                    <FaFigma
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2">Figma</p>
+                  </div>
+
+                  <div className="">
+                    <SiAdobeillustrator
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 mr-">
+                      Adobe <br />
+                      Illustrator
+                    </p>
+                  </div>
+                  <div className="">
+                    <VscVscode
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2">
+                      Visual Studio <br /> Code
+                    </p>
+                  </div>
+
+                  <div className="">
+                    <TbBrandReactNative
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2">
+                      React <br /> Native
+                    </p>
+                  </div>
+                  <div className="">
+                    <FaGithub
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2">
+                      GitHub
+                    </p>
+                  </div>
+                  <div className="">
+                  <IoLogoFirebase
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2">
+                      Firebase
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -163,4 +251,3 @@ function NPS_PNW() {
 }
 
 export default NPS_PNW;
-

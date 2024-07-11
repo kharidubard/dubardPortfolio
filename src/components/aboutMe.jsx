@@ -23,7 +23,7 @@ function About() {
             {/* Content for the left column */}
             <img
               src={KhariInVegas}
-              className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
+              className="xs:hidden md:flex w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
               alt="Khari DuBard in Las Vegas"
             />
           </div>

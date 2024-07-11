@@ -24,15 +24,15 @@ const projects = [
     image: DCHome,
     link: "/pages/projects/dcSite",
   },
-  // {
-  //   id: 3,
-  //   title: "Alive IV Lounge",
-  //   date: "May 2023",
-  //   description:
-  //     "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
-  //   image: AliveLogo,
-  //   link: "/pages/projects/AliveIV",
-  // },
+  {
+    id: 3,
+    title: "Alive IV Lounge",
+    date: "May 2023",
+    description:
+      "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
+    image: AliveLogo,
+    link: "/pages/projects/AliveIV",
+  },
 ];
 
 function Projects() {
@@ -60,7 +60,7 @@ function Projects() {
                 className="hover:no-underline"
                 rel="noreferrer"
               >
-                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl">
+                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl overflow-y-hidden">
                   <img
                     src={project.image}
                     alt={project.title}

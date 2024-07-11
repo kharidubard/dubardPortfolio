@@ -8,7 +8,7 @@ import ProjectSection from "../components/projectSection.jsx";
 function App() {
   return (
     <div className="App bg-primaryDarkBrown">
-      <main className=" mb-[8rem] box-border m-0 p-0 relative flex flex-col flex-none flex-nowrap overflow-visible content-center items-center justify-center h-min w-full">
+      <main className=" mb-[8rem] box-border m-0 p-0 relative flex flex-col flex-none flex-nowrap overflow-visible overflow-x-hidden content-center items-center justify-center h-min w-full">
         <div className=" flex flex-col gap-[4rem]">
           <Hero />
         </div>
