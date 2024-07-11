@@ -12,7 +12,7 @@ function ScrollingIcons() {
   return (
     <>
       <div className="text-md font-bold text-white pl-40 px-10 mb-4">
-        <p>Tech I've Worked With:</p>
+        <p>Skills:</p>
       </div>
       <div
         x-data="{}"
