@@ -51,7 +51,7 @@ function Designs() {
           </div>
 
           {/* Project Cards */}
-          <div className="flex justify-center">
+          <div className="flex justify-center overflow-y-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
               {projects.map((project) => (
                 <NavLink
@@ -60,7 +60,7 @@ function Designs() {
                   className="hover:no-underline"
                   rel="noreferrer"
                 >
-                  <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl overflow-x-hidden">
+                  <div className="bg-white transition duration-200 md:hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl overflow-x-hidden">
                     <img
                       src={project.image}
                       alt={project.title}

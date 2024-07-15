@@ -84,7 +84,7 @@ function NPS_PNW() {
             <div className="p-4 md:w-1/2 mt-4">
               <img
                 src={npsProjectCover}
-                className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
+                className="w-full h-auto rounded-md shadow-[0px_6px_4px_rgba(0,0,0,0.3)]"
                 alt="NPS PNW Project Cover"
               />
 
@@ -114,7 +114,7 @@ function NPS_PNW() {
                 <h2 className="font-bold text-[24px] xs:text-[20px]">
                   Tools, Programs, and Languages Used:
                 </h2>
-                <div className="grid grid-cols-3 gap-x-6">
+                <div className="grid grid-cols-3 gap-x-6 mt-4">
                   <div className="">
                     <FaFigma
                       style={{

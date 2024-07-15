@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import npsProjectCover from "../assets/projectFiles/npsProjectCover.png";
 import DCHome from "../assets/projectFiles/DCHome.png";
 import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
+import WebsiteMockup from "../assets/projectFiles/website_mockupHero.png";
 
 const projects = [
   {
@@ -30,8 +31,8 @@ const projects = [
     date: "July 2024",
     description:
       "A redesign and development of my portfolio website. The process involved an overhaul, focusing on improving the user experience, visual design, and functionality.",
-    image: AliveLogo,
-    link: "pages/projects/",
+    image: WebsiteMockup,
+    link: "pages/projects/Portfolio",
   },
 ];
 
@@ -56,7 +57,7 @@ function ProjectSection() {
                 className="hover:no-underline"
                 rel="noreferrer"
               >
-                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl overflow-x-hidden">
+                <div className="bg-white transition duration-200 md:hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl overflow-x-hidden">
                   <img
                     src={project.image}
                     alt={project.title}

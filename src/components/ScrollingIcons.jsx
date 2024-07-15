@@ -8,6 +8,7 @@ import { FaReact } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
 
+
 function ScrollingIcons() {
   return (
     <>
@@ -27,7 +28,7 @@ function ScrollingIcons() {
           x-ref="logos"
           class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
         >
-          <li className="flex flex-col items-center">
+          <li className="">
             <FaFigma
               style={{
                 fontSize: "3rem",
@@ -35,9 +36,9 @@ function ScrollingIcons() {
                 marginTop: "1rem",
               }}
             />
-            <p className="mt-2 text-white text-center">CSS</p>
+            <p className="mt-2 text-white text-center">Figma</p>
           </li>
-          <li className="flex flex-col items-center">
+          <li className="">
             <FaHtml5
               style={{
                 fontSize: "3rem",
@@ -47,7 +48,7 @@ function ScrollingIcons() {
             />
             <p className="mt-2 text-white text-center">HTML</p>
           </li>
-          <li className="flex flex-col items-center">
+          <li className="">
             <IoLogoCss3
               style={{
                 fontSize: "3rem",
@@ -58,7 +59,7 @@ function ScrollingIcons() {
             <p className="mt-2 text-white text-center">CSS</p>
           </li>
 
-          <li className="flex flex-col items-center">
+          <li className="">
             <IoLogoJavascript
               style={{
                 fontSize: "3rem",
@@ -80,16 +81,16 @@ function ScrollingIcons() {
             <p className="mt-2 text-white text-center">TailWind CSS</p>
           </li>
           <li>
-          <li className="flex flex-col items-center">
-            <FaReact
-              style={{
-                fontSize: "3rem",
-                color: "#fff",
-                marginTop: "1rem",
-              }}
-            />
-            <p className="mt-2 text-white text-center">React</p>
-          </li>
+            <li className="flex flex-col items-center">
+              <FaReact
+                style={{
+                  fontSize: "3rem",
+                  color: "#fff",
+                  marginTop: "1rem",
+                }}
+              />
+              <p className="mt-2 text-white text-center">React</p>
+            </li>
           </li>
           <li className="flex flex-col items-center">
             <TbBrandReactNative
@@ -112,6 +113,7 @@ function ScrollingIcons() {
             <p className="mt-2 text-white text-center">FireBase</p>
           </li>
         </ul>
+        
       </div>
     </>
   );

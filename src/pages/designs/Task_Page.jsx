@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
+import { FaFigma } from "react-icons/fa6";
 
 import TaskPageNew from "../../assets/projectFiles/designFiles/TaskPageNew.webp";
 import TaskPageHomeSS from "../../assets/projectFiles/designFiles/TaskPageHomeSS.webp";
@@ -31,8 +32,25 @@ function TaskPage() {
               </h1>
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
-                A proposed redesign for the Limbitless Solutions tasking page.
+                The Task Page Redesign project focuses on enhancing the user
+                experience of the Limbitless Solutions tasking page through a
+                proposed redesign. The goal is to streamline navigation, improve
+                accessibility, and create a more intuitive interface that
+                enhances user productivity and engagement.
               </p>
+              <div className="mt-16">
+                <h2 className="font-bold text-[24px]">Goal</h2>
+                <p className="text-16 md:text-20">
+                  {" "}
+                  to transform the existing tasking page into a user-centric
+                  design that prioritizes ease of use and functionality. This
+                  involves conducting user research, refining information
+                  architecture, and creating interactive prototypes to validate
+                  design decisions. The redesigned interface aims to optimize
+                  user workflows and elevate overall user satisfaction with the
+                  platform.
+                </p>
+              </div>
 
               <div className="mt-16">
                 <h2 className="font-bold text-[24px]">
@@ -46,7 +64,7 @@ function TaskPage() {
             <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
                 src={TaskPageNew}
-                className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
+                className="w-full h-auto rounded-md shadow-[0px_6px_4px_rgba(0,0,0,0.3)]"
                 alt="Task Page New Design"
               />
 
@@ -60,6 +78,26 @@ function TaskPage() {
                     Figma Prototype
                   </button>
                 </a>
+              </div>
+
+              {/* Tools Used Section */}
+
+              <div className="mt-6">
+                <h2 className="font-bold text-[24px] xs:text-[20px]">
+                  Tool Used:
+                </h2>
+                <div className="grid grid-cols-3 gap-x-6 mt-4">
+                  <div className="flex flex-col items-center">
+                    <FaFigma
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">Figma</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -102,4 +140,3 @@ function TaskPage() {
 }
 
 export default TaskPage;
-

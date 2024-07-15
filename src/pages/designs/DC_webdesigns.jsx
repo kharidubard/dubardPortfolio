@@ -1,11 +1,15 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
-
 import KhariRedesignMac from "../../assets/projectFiles/designFiles/Khari RedesignMac.png";
 import KhariAboutRedesign from "../../assets/projectFiles/designFiles/KhariAboutRedesign.webp";
 import ContactPageWeb from "../../assets/projectFiles/designFiles/Contact Page-Web.webp";
 import MembershipPageWeb from "../../assets/projectFiles/designFiles/MembershipPage-Web.webp";
+import { FaFigma } from "react-icons/fa6";
+import { VscVscode } from "react-icons/vsc";
+import { FaGithub } from "react-icons/fa";
+import { FaReact } from "react-icons/fa6";
+import { FaJira } from "react-icons/fa";
 
 function DC_Web() {
   useEffect(() => {
@@ -33,9 +37,25 @@ function DC_Web() {
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
                 A collection of Figma page designs for the Design & Code
-                website. These designs were developed but unimplemented.
+                website. These designs were developed but unimplemented on to
+                the website.
               </p>
 
+              <div className="mt-16">
+                <h2 className="font-bold text-[24px]">Goal</h2>
+                <p className="text-16 md:text-20">
+                  The goal of this project was to design new pages for the Design & Code
+                  website to better showcase our club's offerings and engage
+                  with our audience more effectively. This includes the
+                  creation of new pages such as an About Us page, providing
+                  insights into our club and its members. Additionally, a
+                  Membership page was designed to outline membership benefits
+                  and opportunities, encouraging new sign-ups and fostering
+                  community participation. Lastly, a Contact page was developed
+                  to facilitate easier communication with our club through
+                  integrated social media links and contact information.
+                </p>
+              </div>
               <div className="mt-16">
                 <h2 className="font-bold text-[24px]">
                   My Role in this project
@@ -46,14 +66,13 @@ function DC_Web() {
                   Front-End Developer
                 </p>
               </div>
-              
             </div>
 
             {/* Right Column Content */}
             <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
                 src={KhariRedesignMac}
-                className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
+                className="w-full h-auto rounded-md shadow-[0px_6px_4px_rgba(0,0,0,0.3)]"
                 alt="Design & Code About Page Figma Design"
               />
 
@@ -67,6 +86,68 @@ function DC_Web() {
                     Figma File
                   </button>
                 </a>
+              </div>
+              <div className="mt-6">
+                <h2 className="font-bold text-[24px] xs:text-[20px]">
+                  Tools, Programs, and Languages Used:
+                </h2>
+                <div className="grid grid-cols-3 gap-x-6 mt-4">
+                  <div className="flex flex-col items-center">
+                    <FaFigma
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">Figma</p>
+                  </div>
+
+                  <div className="flex flex-col items-center">
+                    <VscVscode
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">
+                      Visual Studio <br /> Code
+                    </p>
+                  </div>
+
+                  <div className="flex flex-col items-center">
+                    <FaReact
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">React</p>
+                  </div>
+
+                  <div className="flex flex-col items-center">
+                    <FaGithub
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">GitHub</p>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <FaJira
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">Jira</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -119,7 +200,6 @@ function DC_Web() {
               />
             </div>
           </div>
-           
         </div>
       </div>
       <div className="mt-10">
@@ -130,5 +210,3 @@ function DC_Web() {
 }
 
 export default DC_Web;
-
-

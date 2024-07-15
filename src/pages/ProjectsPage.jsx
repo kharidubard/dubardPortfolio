@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import npsProjectCover from "../assets/projectFiles/npsProjectCover.png";
 import DCHome from "../assets/projectFiles/DCHome.png";
 import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
+import WebsiteMockup from "../assets/projectFiles/website_mockupHero.png";
 
 const projects = [
   {
@@ -26,12 +27,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Alive IV Lounge",
-    date: "May 2023",
+    title: "Portfolio Website",
+    date: "July 2024",
     description:
-      "A custom website that I have started creating for a future startup company. The site is functional but is still under development.",
-    image: AliveLogo,
-    link: "/pages/projects/AliveIV",
+      "A redesign and development of my portfolio website. The process involved an overhaul, focusing on improving the user experience, visual design, and functionality.",
+    image: WebsiteMockup,
+    link: "/pages/projects/Portfolio",
   },
 ];
 
@@ -39,20 +40,21 @@ function Projects() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className="flex flex-col min-h-screen bg-primaryDarkBrown">
       {/* Main Content */}
-      <div className="flex-grow px-10">
+      <div className="flex-grow px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <div className="text-center">
-          <h1 className="text-[44px] font-semibold mt-10 mb-20 text-white">
+          <h1 className="text-[32px] sm:text-[44px] font-semibold mt-10 mb-10 sm:mb-20 text-white">
             My Projects
           </h1>
         </div>
 
         {/* Project Cards */}
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full mb-8">
             {projects.map((project) => (
               <NavLink
                 key={project.id}
@@ -60,7 +62,7 @@ function Projects() {
                 className="hover:no-underline"
                 rel="noreferrer"
               >
-                <div className="bg-white transition duration-200 hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl overflow-y-hidden">
+                <div className="bg-white transition duration-200 md:hover:scale-105 rounded-lg overflow-hidden hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -81,7 +83,7 @@ function Projects() {
       </div>
 
       {/* Footer */}
-      <Footer />
+      <Footer className="mt-auto" />
     </div>
   );
 }

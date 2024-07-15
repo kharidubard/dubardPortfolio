@@ -1,14 +1,14 @@
 import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
-import DCHome from "../../assets/projectFiles/DCHome.png";
+import HeroMac from "../../assets/projectFiles/hero_MacMockup.png";
+import mobileSS from "../../assets/projectFiles/mobileSS_Mockup.png";
 import { FaFigma } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
 import { FaGithub } from "react-icons/fa";
-import { FaJira } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 
-function DCSite() {
+function PortfolioSite() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -28,20 +28,27 @@ function DCSite() {
             <div className="p-4 md:w-1/2 mt-4">
               {/* Content for the left column */}
               <h1 className="text-left text-[36px] mb-4 font-bold text-primaryDarkBrown">
-                Design & Code Website
+                Portfolio Website
               </h1>
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
-                A website for the Design and Code club at the University of
-                Central Florida. I served as the lead designer for the site
-                assisting with UI/UX design and front-end development.
+                A redesign and development of my portfolio website. The process
+                involved an overhaul, focusing on improving the user experience,
+                visual design, and functionality. I redesigned and developed
+                this portfolio website from scratch to showcase my projects,
+                designs, and other works more effectively. This custom portfolio
+                website serves as a central hub for all my professional work,
+                demonstrating my web development and UI/UX design skills through
+                a intuitive and engaging user interface.
               </p>
 
               <div className="mt-8">
                 <h2 className="font-bold text-[24px]">Goal</h2>
                 <p className="text-16 md:text-20">
-                  The goal for this site is to offer insight to what the club
-                  has to offer and how to become a member.
+                  Showcase my expertise in web development and UI/UX design
+                  through a visually appealing and user-friendly portfolio that
+                  highlights my projects, designs, and professional achievements
+                  effectively.
                 </p>
               </div>
 
@@ -50,48 +57,32 @@ function DCSite() {
                   My Role in this project
                 </h2>
                 <p className="text-16 md:text-20">
-                  Lead Designer
+                  UI/UX Designer
                   <br />
-                  Front-End Web Developer
+                  Web Developer
                 </p>
               </div>
 
               <div className="mt-4">
                 <h2 className="font-bold text-[24px]">Team Size</h2>
-                <p className="text-16 md:text-20">4 Members</p>
+                <p className="text-16 md:text-20">1 Member</p>
               </div>
             </div>
 
             {/* Right Column Content */}
-            <div className="p-4 md:w-1/2 mt-4">
+            <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
-                src={DCHome}
+                src={HeroMac}
                 className="w-full h-auto rounded-md shadow-[0px_6px_4px_rgba(0,0,0,0.3)]"
-                alt="Design & Code Website Home Page"
+                alt="Alive Website Home Page"
               />
 
-              <div className="mt-8 flex flex-col md:flex-row">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://designandcodeucf.com/"
-                >
-                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
-                    Link to website
-                  </button>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.figma.com/file/k33Rg2VkeGLI5NGqc3SvTx/Design-%26-Code-Website?type=design&node-id=0%3A1&mode=design&t=ey1d54VHEa0CVxms-1"
-                >
-                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4">
-                    Figma Files
-                  </button>
-                </a>
-              </div>
-              
-              {/* Tools Used Section */}
+              <img
+                src={mobileSS}
+                className="w-full h-auto rounded-md shadow-[0px_6px_4px_rgba(0,0,0,0.3)] mt-5"
+                alt="Alive IV Lounge Logo"
+              />
+
               <div className="mt-6">
                 <h2 className="font-bold text-[24px] xs:text-[20px]">
                   Tools, Programs, and Languages Used:
@@ -142,17 +133,6 @@ function DCSite() {
                     />
                     <p className="text-[16px] py-2 text-center">GitHub</p>
                   </div>
-
-                  <div className="flex flex-col items-center">
-                    <FaJira
-                      style={{
-                        fontSize: "3rem",
-                        color: "#000",
-                        marginTop: "1rem",
-                      }}
-                    />
-                    <p className="text-[16px] py-2 text-center">Jira</p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -165,5 +145,4 @@ function DCSite() {
     </div>
   );
 }
-
-export default DCSite;
+export default PortfolioSite;

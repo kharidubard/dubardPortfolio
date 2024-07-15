@@ -9,6 +9,11 @@ import FigmaWorkshop from "../../assets/projectFiles/brandingFiles/dcBranding/Fi
 import FrozenYogurtSocial from "../../assets/projectFiles/brandingFiles/dcBranding/FrozenYogurtSocial.webp";
 import GameKnight from "../../assets/projectFiles/brandingFiles/dcBranding/GameKnight.webp";
 import JavaScriptWorkshop from "../../assets/projectFiles/brandingFiles/dcBranding/JavaScriptWorkshop.webp";
+import { SiCanva } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiBlender } from "react-icons/si";
+import { SiAdobepremierepro } from "react-icons/si";
 
 function DCBrand() {
   useEffect(() => {
@@ -45,9 +50,78 @@ function DCBrand() {
             <div className="p-4 px-8 md:w-1/2 mt-4">
               <img
                 src={DCLogoBlack}
-                className="w-full h-auto rounded-md shadow-[0px_10px_4px_rgba(0,0,0,0.5)]"
+                className="w-full h-auto rounded-md shadow-[0px_6px_4px_rgba(0,0,0,0.3)]"
                 alt="Design & Code Logo"
               />
+              {/* Tools Used Section */}
+              <div className="mt-6">
+                <h2 className="font-bold text-[24px] xs:text-[20px]">
+                  Tools and Programs Used:
+                </h2>
+                <div className="grid grid-cols-3 gap-x-6 mt-4">
+                  <div className="flex flex-col items-center">
+                    <SiCanva
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">Canva</p>
+                  </div>
+
+                  <div className="flex flex-col items-center">
+                    <SiAdobeillustrator
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">
+                      Adobe Illustrator
+                      <br />
+                    </p>
+                  </div>
+
+                  <div className="flex flex-col items-center">
+                    <SiAdobephotoshop
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">
+                      Adobe Photoshop
+                    </p>
+                  </div>
+
+                  <div className="flex flex-col items-center">
+                    <SiBlender
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">Blender</p>
+                  </div>
+
+                  <div className="flex flex-col items-center">
+                    <SiAdobepremierepro
+                      style={{
+                        fontSize: "3rem",
+                        color: "#000",
+                        marginTop: "1rem",
+                      }}
+                    />
+                    <p className="text-[16px] py-2 text-center">
+                      Adobe Premiere Pro
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -144,4 +218,3 @@ function DCBrand() {
 }
 
 export default DCBrand;
-
