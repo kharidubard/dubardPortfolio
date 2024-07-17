@@ -32,11 +32,11 @@ export default {
         'sans': ["'Poppins', sans-serif;"],
       },
       animation: {
-        'infinite-scroll': 'infinite-scroll 20s linear infinite',
+        'infinite-scroll': 'infinite-scroll 30s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
-          from: { transform: 'translateX(30%)' },
+          from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
         }
       },            
