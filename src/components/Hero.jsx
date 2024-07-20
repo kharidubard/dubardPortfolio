@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
-import headshot1square from '../../src/assets/khariHeadshot_23.jpg';
+import headshot1square from '../../src/assets/khariHeadshot_23.webp';
 import { NavLink } from "react-router-dom";
 import ScrollingIcons from "./ScrollingIcons";
 
