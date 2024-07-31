@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import npsProjectCover from "../assets/projectFiles/npsProjectCover.png";
 import DCHome from "../assets/projectFiles/DCHome.png";
 import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
-import WebsiteMockup from "../assets/projectFiles/website_mockupHero.png";
+import WebsiteMockup from "../assets/projectFiles/hero_mockup_updated.webp";
 
 const projects = [
   {
@@ -12,9 +12,9 @@ const projects = [
     title: "National Park System App Pacific Northwest Division",
     date: "September 2023",
     description:
-      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App incorporating regional division.",
+      "This project is a User Experience and Interface redesign of the National Park Service (NPS) App.",
     image: npsProjectCover,
-    link: "/pages/projects/NPS_PNW",
+    link: "/projects/NPS_PNW",
   },
   {
     id: 2,
@@ -23,16 +23,16 @@ const projects = [
     description:
       "A website for the Design and Code club at the University of Central Florida. I served as lead designer for the site, assisting with UI/UX design and front-end development.",
     image: DCHome,
-    link: "/pages/projects/dcSite",
+    link: "/projects/dcSite",
   },
   {
     id: 3,
     title: "Portfolio Website",
     date: "July 2024",
     description:
-      "A redesign and development of my portfolio website. The process involved an overhaul, focusing on improving the user experience, visual design, and functionality.",
+      "A redesign and development of my portfolio website involving an overhaul, focusing on improving the user experience, visual design, and functionality.",
     image: WebsiteMockup,
-    link: "pages/projects/Portfolio",
+    link: "/projects/Portfolio",
   },
 ];
 

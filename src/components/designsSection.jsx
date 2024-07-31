@@ -2,8 +2,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { NavLink } from "react-router-dom";
 import DCLogoBlack from '../assets/projectFiles/DCLogoBlack.png';
-import TaskPageNew from '../assets/projectFiles/designFiles/TaskPageNew.webp';
 import KhariRedesignMac from '../assets/projectFiles/designFiles/Khari RedesignMac.png';
+import InternPageMockup from "../../src/assets/projectFiles/designFiles/intern_redesign_mockups.webp"
 
 const projects = [
   {
@@ -13,16 +13,16 @@ const projects = [
     description:
       "My designs and promotional material for the Design & Code club at the University of Central Florida.",
     image: DCLogoBlack,
-    link: "pages/designs/DC_Branding",
+    link: "/designs/DC_Branding",
   },
   {
     id: 2,
-    title: "Task Page",
-    date: "May 2023",
+    title: "Limbitless Solutions Intern Page Redesign",
+    date: "August 2023",
     description:
-      "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
-    image: TaskPageNew,
-    link: "pages/designs/Task_Page",
+      "My redesign the Limbitless Solutions Internship Page.",
+    image: InternPageMockup,
+    link: "/designs/InternPageRedesign",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projects = [
     date: "Fall 2023",
     description: "A collection of page designs for the Design & Code website.",
     image: KhariRedesignMac,
-    link: "pages/designs/DC_webdesigns",
+    link: "/designs/DC_webdesigns",
   },
 ];
 
