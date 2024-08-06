@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: "Limbitless Solutions Intern Page Redesign",
-    date: "August 2023",
+    date: "September 2023 - October 2023",
     description:
       "My redesign the Limbitless Solutions Internship Page.",
     image: InternPageMockup,
@@ -36,7 +36,7 @@ const projects = [
   {
     id: 4,
     title: "Task Page",
-    date: "August 2023",
+    date: "May 2023 - August 2023",
     description:
       "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
     image: TaskPageNew,

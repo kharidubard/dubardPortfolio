@@ -10,7 +10,7 @@ const projects = [
   {
     id: 1,
     title: "National Park System App Pacific Northwest Division",
-    date: "September 2023",
+    date: "September 2023 - April 2024",
     description:
       "This project is a User Experience and Interface redesign of the National Park Service (NPS) App.",
     image: npsProjectCover,
@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: "Design & Code Website",
-    date: "October 2023",
+    date: "July 2023 - October 2023",
     description:
       "A website for the Design and Code club at the University of Central Florida. I served as lead designer for the site, assisting with UI/UX design and front-end development.",
     image: DCHome,
