@@ -105,24 +105,39 @@ function TaskPage() {
           {/* Grid Row Layout */}
           {/* Mockups */}
           <div className="py-8">
+            <h1 className="text-[28px] font-medium text-white">Design Process</h1>
+          </div>
+          <div className="bg-gray-200 w-full h-[560px]  rounded-md shadow-md">
+              {/* Embedded Video */}
+              <iframe
+                src="https://youtube.com/embed/ZqKCruD9xjo"
+                className="w-full h-full rounded-md"
+                style={{ border: 0 }}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded Video"
+              ></iframe>
+            </div>
+            
+          <div className="py-8">
             <h1 className="text-[28px] font-medium text-white">Mockups</h1>
           </div>
           <div className="grid grid-cols-1 gap-4 mb-8">
-            <div className="w-full h-[800px] rounded-md shadow-md">
+            <div className="w-full rounded-md shadow-md">
               <img
                 src={TaskPageHomeSS}
-                className="w-full h-full object-contain rounded-md"
+                className="sm:w-full sm:h-full object-contain rounded-md"
                 alt="Task Page Home Screen"
               />
             </div>
-            <div className="w-full h-[800px] rounded-md shadow-md">
+            <div className="w-full rounded-md shadow-md">
               <img
                 src={TaskPageNew}
                 className="w-full h-full object-contain rounded-md"
                 alt="Task Page New Design"
               />
             </div>
-            <div className="w-full h-[800px] rounded-md shadow-md">
+            <div className="w-full rounded-md shadow-md">
               <img
                 src={TaskPagePopUp}
                 className="w-full h-full object-contain rounded-md"

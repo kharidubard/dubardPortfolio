@@ -89,13 +89,13 @@ function NPS_PNW() {
               />
 
               <div className="mt-8 flex flex-col md:flex-row">
-                <a
+              <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?node-id=578-1120&t=X9x8E6vJYOcPiRab-1&scaling=scale-down&content-scaling=responsive&page-id=249%3A70&starting-point-node-id=578%3A1120"
+                  href="https://drive.google.com/file/d/1jSLJp0h1eCrDLJuCYHa8JamZI1SQXL2D/view?usp=sharing"
                 >
-                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
-                    Figma Prototype
+                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 md:mr-4">
+                    Case Study
                   </button>
                 </a>
                 <a
@@ -103,10 +103,20 @@ function NPS_PNW() {
                   rel="noopener noreferrer"
                   href="https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?node-id=1147-1653&t=S4vQIdRPsuk2hlal-1&scaling=scale-down&content-scaling=fixed&page-id=1110%3A2178&starting-point-node-id=1147%3A1653"
                 >
-                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4">
+                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 md:mr-4">
                     Style Guide
                   </button>
                 </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?node-id=578-1120&t=X9x8E6vJYOcPiRab-1&scaling=scale-down&content-scaling=responsive&page-id=249%3A70&starting-point-node-id=578%3A1120"
+                >
+                  <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0">
+                    Figma Prototype
+                  </button>
+                </a>
+                
               </div>
 
               {/* Tools Used Section  */}

@@ -40,7 +40,7 @@ const projects = [
     description:
       "A proposed redesign of the Limbitless Solutions tasking page on the team site.",
     image: TaskPageNew,
-    link: "/pages/designs/Task_Page",
+    link: "/designs/Task_Page",
   },
 ];
 
