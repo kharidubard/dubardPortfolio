@@ -19,9 +19,9 @@ function Contact() {
           </p>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-2 w-[650px] md:w-[650px] xs:w-[350px] m-auto gap-y-[10px] gap-x-[10px] xs:grid xs:grid-cols-1 mb-40">
+      <div className="md:grid md:grid-cols-2 w-[650px] md:w-[650px] xs:w-[350px] m-auto gap-y-[20px] gap-x-[20px] xs:grid xs:grid-cols-1 mb-40">
         {/* LnkedIn social box*/}
-        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  shadow-inner hover:shadow-[#101010] hover:brightness-[0.7]">
+        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px] transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
           <a
             href="https://www.linkedin.com/in/khari-dubard-b90ba2248/"
             rel="noreferrer"
@@ -48,7 +48,7 @@ function Contact() {
         </div>
 
         {/* Instagram social box*/}
-        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  shadow-inner hover:shadow-[#101010] hover:brightness-[0.7]">
+        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
           <a
             href="https://www.instagram.com/kharidubard/"
             rel="noreferrer"
@@ -76,7 +76,7 @@ function Contact() {
         </div>
 
         {/* Mail social box*/}
-        <div className="bg-primaryLightBiege text-black rounded-[18px] text-[16px] shadow-inner hover:shadow-[#101010] hover:brightness-[0.7]">
+        <div className="bg-primaryLightBiege text-black rounded-[18px] text-[16px] transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
           <a
             href="mailto:kharidubard@gmail.com"
             rel="noreferrer"
@@ -105,7 +105,7 @@ function Contact() {
         </div>
 
         {/* Github box*/}
-        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  shadow-inner hover:shadow-[#101010] hover:brightness-[0.7]">
+        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
           <a
             href="https://github.com/kharidubard"
             rel="noreferrer"
@@ -132,58 +132,38 @@ function Contact() {
             </p>
           </a>
         </div>
+
+        {/* YouTube*/}
+        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
+          <a
+            href="https://www.youtube.com/@EarBlessingss"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div className=" flex flex-row items-center ">
+              <svg
+                className="h-auto w-[35px] pt-[20px] mr-[11.7px] ml-[25px] "
+                fill="#EB5E28"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M19.792 5.41471C20.6521 5.64577 21.3325 6.32614 21.5635 7.18621C21.9872 8.75232 22 12.0001 22 12.0001C22 12.0001 22 15.2607 21.5764 16.8139C21.3453 17.674 20.665 18.3544 19.8049 18.5854C18.2516 19.0091 12 19.0091 12 19.0091C12 19.0091 5.74839 19.0091 4.19512 18.5854C3.33504 18.3544 2.65469 17.674 2.42362 16.8139C2 15.2478 2 12.0001 2 12.0001C2 12.0001 2 8.75232 2.41078 7.19905C2.64185 6.33897 3.32221 5.65861 4.18229 5.42755C5.73556 5.00392 11.9872 4.99109 11.9872 4.99109C11.9872 4.99109 18.2388 4.99109 19.792 5.41471ZM15.1836 12.0001L9.99743 15.0039V8.99623L15.1836 12.0001Z"
+                  fill="EB5E28"
+                />
+              </svg>
+              <span className="pt-[27.3px] font-semibold">YouTube</span>
+            </div>
+            <p className="text-left mt-[10px] ml-[30px] mb-[14px]">
+              My YouTube Channel.
+            </p>
+          </a>
+        </div>
       </div>
 
       {/* Address & Location*/}
-      {/* <div className="flex flex-col items-center justify-center">
-        <div className="h-[156px] max-w-[632px] flex flex-col items-center justify-center text-white rounded-[18px] text-[16px]   hover:shadow-[#101010] hover:brightness-[0.7]">
-          <a
-            href="https://maps.app.goo.gl/9ZajUbmRADzmoBnz8"
-            rel="noreferrer"
-            target="_blank"
-            className="  "
-          >
-            <div className="flex flex-row items-center ">
-              <svg
-                width="26"
-                height="32"
-                viewBox="0 0 26 32"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25 12.6667C25 19.11 19.6274 31 13 31C6.37258 31 1 19.11 1 12.6667C1 6.22334 6.37258 1 13 1C19.6274 1 25 6.22334 25 12.6667Z"
-                  stroke="white"
-                  stroke-width="1.5"
-                />
-                <ellipse
-                  cx="13"
-                  cy="11"
-                  rx="5.14286"
-                  ry="5"
-                  stroke="white"
-                  stroke-width="1.5"
-                />
-              </svg>
-
-              <span className="text-[20px] pt-[16px] font-semibold pl-[24px]">
-                The University of Central Florida
-              </span>
-              
-            </div>
-            <span className="text-[20px] pt-[16px]font-semibold pl-[48px]">
-                Orlando, FL
-              </span>
-          </a>
-        </div>
-
-        <div className="flex flex-col items-center justify-center">
-          <img
-            src="src\assets\Design and Code Full Logo (White Text).png"
-            width={250}
-          ></img>
-        </div>
-      </div> */}
     </div>
   );
 }
