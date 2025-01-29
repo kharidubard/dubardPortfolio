@@ -43,7 +43,7 @@ export default {
 
       colors: {
         primaryOrange:'#EB5E28',
-        primaryDarkBrown: '#252422',
+        primaryDarkBrown: '#1b1b1b',
         primaryLightBiege:'#FFFCF2',
         secondaryPink:'#E75A7C',
         secondaryYellow:'#FFCC37',
