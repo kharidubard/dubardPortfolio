@@ -1,6 +1,8 @@
-# React + Vite
+# Khari DuBard Portfolio Webstie
 
 https://kharidubard.me/
+
+© 2025 Created by Khari DuBard
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
