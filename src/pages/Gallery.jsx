@@ -6,31 +6,31 @@ import Footer from "../components/Footer";
 const images = [
  
   {
-    src: "public/photos/bikesShed.webp",
+    src: "/photos/bikesShed.webp",
     alt: "Shed Bikes",
     caption: "Razor electric bikes parked in front of a shed.",
     date: "June 2025",
   },
   {
-    src: "public/photos/canalTrees.webp",
+    src: "/photos/canalTrees.webp",
     alt: "Panther Creek",
     caption: "Panther Creek in the summer.",
     date: "June 2025",
   },
   {
-    src: "public/photos/shedSigns.webp",
+    src: "/photos/shedSigns.webp",
     alt: "Signs!",
     caption: "Road signs.",
     date: "June 2025",
   },
   {
-    src: "public/photos/ballShot.webp",
+    src: "/photos/ballShot.webp",
     alt: "Hoops",
     caption: "Basketball shot.",
     date: "June 2025",
   },
   {
-    src: "public/photos/shedBridge.webp",
+    src: "/photos/shedBridge.webp",
     alt: "Fall leaves bridge",
     caption: "Fall time in Morrow, GA.",
     date: "November 2018",
