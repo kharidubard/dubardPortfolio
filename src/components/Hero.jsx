@@ -26,7 +26,7 @@ function Hero() {
           <h2 className="text-lg mb-4 sm:px-10 py-1  overflow-y-hidden">Hello! I&apos;m</h2>
           <h2 className="text-lg font-semibold sm:px-10 py-1 overflow-y-hidden">Khari</h2>
           <h2 className="text-lg font-semibold sm:px-10 mb-1 py-1  overflow-y-hidden">DuBard</h2>
-          <p className="text-md md:text-base sm:px-12 md:pl-16">Web Developer <br /> UI/UX Designer</p>
+          <p className="text-md md:text-base sm:px-12 md:pl-16">Web Designer <br /> Branding & Marketing Creative</p>
           <div className="sm:pl-10 mt-6 flex flex-col md:flex-row">
             <NavLink to="/contact">
               <button className="transition duration-200 hover:scale-105 text-white text-[20px] bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
