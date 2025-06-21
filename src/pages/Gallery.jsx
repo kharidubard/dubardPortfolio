@@ -49,7 +49,7 @@ function Gallery() {
     {images.map((image, index) => (
       <div
         key={index}
-        className="break-inside-avoid cursor-pointer transition duration-300 hover:scale-[1.02]"
+        className="break-inside-avoid cursor-pointer transition s:hover:drop-shadow-[0.1rem_0.1rem_15px_rgba(235,94,40,0.7)] hover:shadow-2xl duration-300 hover:scale-[1.02]"
         onClick={() => setSelectedImage(image)}
       >
         <img
