@@ -87,6 +87,13 @@ function Navbar() {
                 <span className="underline-animation"></span>
               </NavLink>
               <NavLink
+                to="/gallery"
+                onClick={handleLinkClick}
+                className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">
+                Gallery
+                <span className="underline-animation"></span>
+              </NavLink>
+              <NavLink
                 to="/contact"
                 onClick={handleLinkClick}
                 className="nav-link block lg:mt-0 text-black text-[1rem] hover:text-primaryOrange mr-4 relative">

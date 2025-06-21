@@ -13,6 +13,7 @@ import DCBrand from './pages/designs/DC_Branding.jsx';
 import TaskPage from './pages/designs/Task_Page.jsx';
 import DC_Web from './pages/designs/DC_webdesigns.jsx';
 import InternPage from './pages/designs/InternPageRedesign.jsx';
+import Gallery from './pages/Gallery.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <HashRouter>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/" element={<Base />}>
         <Route index element={<Home />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="gallery" element={<Gallery />} />
         <Route path="designs" element={<Designs />} />
         <Route path="projects/NPS_PNW" element={<NPS_PNW />} />
         <Route path="projects/dcSite" element={<DCSite />} />

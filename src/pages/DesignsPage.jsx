@@ -53,9 +53,9 @@ function Designs() {
       {/* Main Content */}
       <div className="flex-grow">
         {/* Title */}
-        <div className="bg-primaryDarkBrown mt-10 mb-10 px-10">
+        <div className="bg-primaryDarkBrown mb-10 px-10">
           <div className="text-center">
-            <h1 className="text-[44px] font-semibold mb-20 text-white">
+            <h1 className="text-[44px] font-semibold mt-10 mb-20 text-white">
               My Designs
             </h1>
           </div>
