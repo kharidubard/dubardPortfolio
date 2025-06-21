@@ -2,34 +2,35 @@ import { Component } from "react";
 import React, { useState } from "react";
 import Footer from "../components/Footer";
 
+
 const images = [
  
   {
-    src: "src/assets/photos/bikesShed.webp",
+    src: "public/photos/bikesShed.webp",
     alt: "Shed Bikes",
     caption: "Razor electric bikes parked in front of a shed.",
     date: "June 2025",
   },
   {
-    src: "src/assets/photos/canalTrees.webp",
+    src: "public/photos/canalTrees.webp",
     alt: "Panther Creek",
     caption: "Panther Creek in the summer.",
     date: "June 2025",
   },
   {
-    src: "src/assets/photos/shedSigns.webp",
+    src: "public/photos/shedSigns.webp",
     alt: "Signs!",
     caption: "Road signs.",
     date: "June 2025",
   },
   {
-    src: "src/assets/photos/ballShot.webp",
+    src: "public/photos/ballShot.webp",
     alt: "Hoops",
     caption: "Basketball shot.",
     date: "June 2025",
   },
   {
-    src: "src/assets/photos/shedBridge.webp",
+    src: "public/photos/shedBridge.webp",
     alt: "Fall leaves bridge",
     caption: "Fall time in Morrow, GA.",
     date: "November 2018",
