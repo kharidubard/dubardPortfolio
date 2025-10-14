@@ -36,7 +36,7 @@ function Hero() {
             <a 
               target="_blank" 
               rel="noopener noreferrer" 
-              href="https://drive.google.com/file/d/1zkyQ-Ow1XTBmG5BeqmzUS2WkwqYKvGFQ/view?usp=sharing"
+              href="https://drive.google.com/file/d/118fv4mFjqZqzVdCtRZp97TBahYWcFtaT/view?usp=sharing"
             >
               <button className="transition duration-200 hover:scale-105 text-white text-[20px] bg-primaryOrange rounded-xl py-2 px-4">
                 My Resume
