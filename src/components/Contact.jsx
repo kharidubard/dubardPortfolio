@@ -48,7 +48,7 @@ function Contact() {
         </div>
 
         {/* Instagram social box*/}
-        <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
+        {/* <div className="bg-primaryLightBiege  text-black rounded-[18px] text-[16px]  transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
           <a
             href="https://www.instagram.com/kharidubard/"
             rel="noreferrer"
@@ -73,7 +73,7 @@ function Contact() {
               Check Me Out On Instagram.
             </p>
           </a>
-        </div>
+        </div> */}
 
         {/* Mail social box*/}
         <div className="bg-primaryLightBiege text-black rounded-[18px] text-[16px] transition duration-200 md:hover:scale-105 hover:drop-shadow-[0.1rem_0.1rem_5px_rgba(235,94,40,0.7)] hover:shadow-lg">
