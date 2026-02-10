@@ -28,7 +28,7 @@ function Hero() {
           <h2 className="text-lg font-semibold sm:px-10 mb-1 py-1  overflow-y-hidden">DuBard</h2>
           <p className="text-md md:text-base sm:px-12 md:pl-16">Web Designer <br /> Branding & Marketing Creative</p>
           <div className="sm:pl-10 mt-6 flex flex-col md:flex-row">
-            <NavLink to="/contact">
+            <NavLink to="/contact" title="Opens Contact page">
               <button className="transition duration-200 hover:scale-105 text-white text-[20px] bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
                 Contact Me
               </button>
@@ -37,6 +37,7 @@ function Hero() {
               target="_blank" 
               rel="noopener noreferrer" 
               href="https://drive.google.com/file/d/118fv4mFjqZqzVdCtRZp97TBahYWcFtaT/view?usp=sharing"
+              title="Opens Khari DuBard's resume in a new tab"
             >
               <button className="transition duration-200 hover:scale-105 text-white text-[20px] bg-primaryOrange rounded-xl py-2 px-4">
                 My Resume

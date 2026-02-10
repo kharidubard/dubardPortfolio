@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Footer from "../../components/Footer";
 import npsProjectCover from "../../assets/projectFiles/npsProjectCover.png";
 import npsMockup1 from "../../assets/projectFiles/npsMockups/NPS-PNW-Mockups-1.webp";
@@ -55,6 +55,7 @@ function NPS_PNW() {
                   <a
                     href="https://communication.ucf.edu/digital-media-students-make-an-impression-during-showcase/"
                     target="_blank"
+                    title="Link opens Nicholson School of Communication and Media article. Opens in new tab."
                     rel="noopener noreferrer"
                     className="text-primaryOrange font-semibold hover:underline"
                   >
@@ -93,6 +94,7 @@ function NPS_PNW() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/1jSLJp0h1eCrDLJuCYHa8JamZI1SQXL2D/view?usp=sharing"
+                  title="Link opens the Case Study. Opens in new tab."
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 md:mr-4">
                     Case Study
@@ -102,6 +104,7 @@ function NPS_PNW() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?node-id=1147-1653&t=S4vQIdRPsuk2hlal-1&scaling=scale-down&content-scaling=fixed&page-id=1110%3A2178&starting-point-node-id=1147%3A1653"
+                  title="Link opens the Style Guide. Opens in new tab."
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 md:mr-4">
                     Style Guide
@@ -111,6 +114,7 @@ function NPS_PNW() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.figma.com/proto/e4uHt2eeN0YSs22dRAq3ZJ/Prototype?node-id=578-1120&t=X9x8E6vJYOcPiRab-1&scaling=scale-down&content-scaling=responsive&page-id=249%3A70&starting-point-node-id=578%3A1120"
+                  title="Link opens the Figma Prototype. Opens in new tab."
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0">
                     Figma Prototype

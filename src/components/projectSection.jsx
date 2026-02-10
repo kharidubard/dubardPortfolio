@@ -3,7 +3,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import npsProjectCover from "../assets/projectFiles/npsProjectCover.png";
 import DCHome from "../assets/projectFiles/DCHome.png";
-import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
+//import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
 import WebsiteMockup from "../assets/projectFiles/hero_mockup_updated.webp";
 
 const projects = [
@@ -15,6 +15,7 @@ const projects = [
       "This project is a User Experience and Interface redesign of the National Park Service (NPS) App.",
     image: npsProjectCover,
     link: "/projects/NPS_PNW",
+    alt: "Cover image for the National Park System App Pacific Northwest Division project. Link opens project page.",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const projects = [
       "A website for the Design and Code club at the University of Central Florida. I served as lead designer for the site, assisting with UI/UX design and front-end development.",
     image: DCHome,
     link: "/projects/dcSite",
+    alt: "Cover image for the Design & Code Website project. Link opens project page.",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const projects = [
       "A redesign and development of my portfolio website involving an overhaul, focusing on improving the user experience, visual design, and functionality.",
     image: WebsiteMockup,
     link: "/projects/Portfolio",
+    alt: "Cover image for the Portfolio Website project. Link opens project page.",
   },
 ];
 
@@ -62,6 +65,7 @@ function ProjectSection() {
                     src={project.image}
                     alt={project.title}
                     className="w-full h-48 object-cover"
+                    title={project.alt}
                   />
                   <div className="p-4">
                     <p className="text-[14px] text-gray-600">{project.date}</p>

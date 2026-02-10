@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
 import DCLogoBlack from "../../assets/projectFiles/DCLogoBlack.png";
@@ -39,7 +39,7 @@ function DCBrand() {
               </h1>
               <h2 className="font-bold text-[24px]">Overview</h2>
               <p className="xs:text-[14px] md:text-[16px]">
-                As Marketing Coordinator for the Design & Code club at UCF, I've
+                As Marketing Coordinator for the Design & Code club at UCF, I&apos;ve
                 designed a plethora of promotional materials and products. From
                 the club logo to t-shirts here is a showcase of some of the
                 items I created for the club.

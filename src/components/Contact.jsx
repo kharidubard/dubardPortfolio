@@ -1,6 +1,4 @@
-import { Component } from "react";
-import React, { useState } from "react";
-import Footer from "../components/Footer";
+
 
 function Contact() {
   return (
@@ -24,6 +22,7 @@ function Contact() {
             href="https://www.linkedin.com/in/khari-dubard-b90ba2248/"
             rel="noreferrer"
             target="_blank"
+            title="Opens LinkedIn in a new tab"
           >
             <div className=" flex flex-row items-center ">
               <svg
@@ -80,6 +79,7 @@ function Contact() {
             rel="noreferrer"
             target="_blank"
             className="  "
+            title="Send an email to Khari DuBard"
           >
             <div className=" flex flex-row items-center ">
               <svg
@@ -108,6 +108,7 @@ function Contact() {
             href="https://github.com/kharidubard"
             rel="noreferrer"
             target="_blank"
+            title="Opens GitHub in a new tab"
           >
             <div className=" flex flex-row items-center ">
               <svg
@@ -117,8 +118,8 @@ function Contact() {
                 aria-hidden="true"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M12 2.24658C6.475 2.24658 2 6.72158 2 12.2466C2 16.6716 4.8625 20.4091 8.8375 21.7341C9.3375 21.8216 9.525 21.5216 9.525 21.2591C9.525 21.0216 9.5125 20.2341 9.5125 19.3966C7 19.8591 6.35 18.7841 6.15 18.2216C6.0375 17.9341 5.55 17.0466 5.125 16.8091C4.775 16.6216 4.275 16.1591 5.1125 16.1466C5.9 16.1341 6.4625 16.8716 6.65 17.1716C7.55 18.6841 8.9875 18.2591 9.5625 17.9966C9.65 17.3466 9.9125 16.9091 10.2 16.6591C7.975 16.4091 5.65 15.5466 5.65 11.7216C5.65 10.6341 6.0375 9.73408 6.675 9.03408C6.575 8.78408 6.225 7.75908 6.775 6.38408C6.775 6.38408 7.6125 6.12158 9.525 7.40908C10.325 7.18408 11.175 7.07158 12.025 7.07158C12.875 7.07158 13.725 7.18408 14.525 7.40908C16.4375 6.10908 17.275 6.38408 17.275 6.38408C17.825 7.75908 17.475 8.78408 17.375 9.03408C18.0125 9.73408 18.4 10.6216 18.4 11.7216C18.4 15.5591 16.0625 16.4091 13.8375 16.6591C14.2 16.9716 14.5125 17.5716 14.5125 18.5091C14.5125 19.8466 14.5 20.9216 14.5 21.2591C14.5 21.5216 14.6875 21.8341 15.1875 21.7341C17.1727 21.0639 18.8977 19.7881 20.1198 18.0861C21.3419 16.3842 21.9995 14.3418 22 12.2466C22 6.72158 17.525 2.24658 12 2.24658Z"
                   fill="#EB5E28"
                 />
@@ -137,6 +138,7 @@ function Contact() {
             href="https://www.youtube.com/@EarBlessingss"
             rel="noreferrer"
             target="_blank"
+            title="Opens YouTube in a new tab"
           >
             <div className=" flex flex-row items-center ">
               <svg
@@ -146,8 +148,8 @@ function Contact() {
                 aria-hidden="true"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M19.792 5.41471C20.6521 5.64577 21.3325 6.32614 21.5635 7.18621C21.9872 8.75232 22 12.0001 22 12.0001C22 12.0001 22 15.2607 21.5764 16.8139C21.3453 17.674 20.665 18.3544 19.8049 18.5854C18.2516 19.0091 12 19.0091 12 19.0091C12 19.0091 5.74839 19.0091 4.19512 18.5854C3.33504 18.3544 2.65469 17.674 2.42362 16.8139C2 15.2478 2 12.0001 2 12.0001C2 12.0001 2 8.75232 2.41078 7.19905C2.64185 6.33897 3.32221 5.65861 4.18229 5.42755C5.73556 5.00392 11.9872 4.99109 11.9872 4.99109C11.9872 4.99109 18.2388 4.99109 19.792 5.41471ZM15.1836 12.0001L9.99743 15.0039V8.99623L15.1836 12.0001Z"
                   fill="EB5E28"
                 />

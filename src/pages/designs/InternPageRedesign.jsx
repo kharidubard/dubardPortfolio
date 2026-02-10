@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
 import InternPageMockup from "../../assets/projectFiles/designFiles/intern_redesign_mockups.webp"
@@ -82,6 +82,7 @@ function InternPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.figma.com/design/Ely4eW2Q1aRAVNSO2sbMO5/Join-Our-Team-Page-(Design-File)?node-id=0-1&t=anaS8lOT3eyG3Nsa-1"
+                  title="Link opens the Figma design file. Opens in new tab."
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
                     Figma File

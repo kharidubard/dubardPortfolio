@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
 import KhariRedesignMac from "../../assets/projectFiles/designFiles/Khari RedesignMac.png";
@@ -45,7 +45,7 @@ function DC_Web() {
                 <h2 className="font-bold text-[24px]">Goal</h2>
                 <p className="text-16 md:text-20">
                   The goal of this project was to design new pages for the Design & Code
-                  website to better showcase our club's offerings and engage
+                  website to better showcase our club&apos;s offerings and engage
                   with our audience more effectively. This includes the
                   creation of new pages such as an About Us page, providing
                   insights into our club and its members. Additionally, a
@@ -81,6 +81,7 @@ function DC_Web() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.figma.com/design/k33Rg2VkeGLI5NGqc3SvTx/Design-%26-Code-Website?node-id=567-2&t=PA825dKSmXZHinBA-1"
+                  title="Link opens the Figma design file. Opens in new tab."
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
                     Figma File

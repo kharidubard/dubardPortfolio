@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import Footer from "../../components/Footer";
 import { useEffect } from "react";
 import { FaFigma } from "react-icons/fa6";
@@ -73,6 +73,7 @@ function TaskPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.figma.com/proto/YBBtpdmfBaOtiAmQyLfEeZ?node-id=0-1&t=eDvNvuNKruYTYsL7-6"
+                  title="Link opens the Figma Prototype. Opens in new tab."
                 >
                   <button className="transition duration-200 hover:scale-105 text-white text-s bg-primaryOrange rounded-xl py-2 px-4 mb-4 md:mb-0 md:mr-4">
                     Figma Prototype
