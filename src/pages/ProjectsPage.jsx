@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Footer from "../components/Footer";
 import { NavLink } from "react-router-dom";
 import npsProjectCover from "../assets/projectFiles/npsProjectCover.png";
 import DCHome from "../assets/projectFiles/DCHome.png";
-import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
+//import AliveLogo from "../assets/projectFiles/AliveLogo.jpg";
 import WebsiteMockup from "../assets/projectFiles/hero_mockup_updated.webp";
 
 const projects = [
